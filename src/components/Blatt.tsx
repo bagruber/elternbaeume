@@ -1,7 +1,7 @@
 import { ArrowSquareOut, CaretDown, Info, Warning, X } from "@phosphor-icons/react";
 import { ARTEN, type Baum } from "@/lib/daten";
 import { entfernungKm, moosburgStufe, naechstes, optionen, type Option, type Zustand } from "@/lib/auswahl";
-import { mitte, ringSvg } from "@/lib/zeichen";
+import { grauSvg, mitte, ringSvg } from "@/lib/zeichen";
 import {
   ERFOLG_BALKEN,
   GEWISSHEIT_TEXT,
@@ -15,7 +15,7 @@ import {
 
 interface Props {
   baum: Baum;
-  jahr: Zustand[];
+  jahr: Zustand[] | null;
   monat: number;
   tage: number;
   onSchliessen: () => void;
@@ -75,6 +75,13 @@ function Haltbarkeit({ o, tage }: { o: Option; tage: number }) {
 
 function Erfolg({ o }: { o: Option }) {
   const n = ERFOLG_BALKEN[o.am.erfolg];
+  if (o.am.erfolg === "offen") {
+    return (
+      <span className="flex items-center gap-1.5 text-[12px]" title="Die Quelle nennt die Methode, aber keinen Erfolg">
+        <span className="font-semibold">Erfolg offen</span>
+      </span>
+    );
+  }
   return (
     <span className="flex items-center gap-1.5 text-[12px]" title={o.am.erfolgBeleg ?? "eigene Einschätzung"}>
       <span className="flex items-end gap-[2px]" aria-hidden="true">
@@ -141,7 +148,7 @@ function Methode({ o, monat, tage }: { o: Option; monat: number; tage: number })
 }
 
 function hinweise(baum: Baum) {
-  const art = ARTEN[baum.art];
+  const art = baum.art ? ARTEN[baum.art] : null;
   const liste: { text: string; warnung?: boolean }[] = [];
   if (baum.schutz?.includes("Botanischer Garten")) {
     liste.push({ text: "Botanischer Garten: Sammeln ist dort meist nicht gestattet. Der übliche Weg ist eine Anfrage bei der Gartenverwaltung." });
@@ -152,16 +159,16 @@ function hinweise(baum: Baum) {
     liste.push({ text: "Außerhalb der EU: Seit 2019 brauchen Pflanzen und Samen aus Nicht-EU-Ländern meist ein Pflanzengesundheitszeugnis, auch im Reisegepäck. Vorher prüfen." });
   }
   if (baum.hinweis) liste.push({ text: baum.hinweis });
-  if (art.hinweis) liste.push({ text: art.hinweis });
-  if (art.boden) liste.push({ text: art.boden });
-  if (art.invasiv) liste.push({ text: `Invasiv: ${art.invasiv}`, warnung: true });
-  if (art.giftig) liste.push({ text: `Giftig: ${art.giftig}`, warnung: true });
+  if (art?.hinweis) liste.push({ text: art.hinweis });
+  if (art?.boden) liste.push({ text: art.boden });
+  if (art?.invasiv) liste.push({ text: `Invasiv: ${art.invasiv}`, warnung: true });
+  if (art?.giftig) liste.push({ text: `Giftig: ${art.giftig}`, warnung: true });
   return liste;
 }
 
 export function Blatt({ baum, jahr, monat, tage, onSchliessen }: Props) {
-  const art = ARTEN[baum.art];
-  const stufe = moosburgStufe(art.zone);
+  const art = baum.art ? ARTEN[baum.art] : null;
+  const stufe = art ? moosburgStufe(art.zone) : null;
   const opts = optionen(baum, monat, tage);
   const beste = opts.find((o) => o.moeglich && o.am.erfolg !== "kaum");
   const spaeter = beste ? null : naechstes(baum, monat, tage);
@@ -175,11 +182,16 @@ export function Blatt({ baum, jahr, monat, tage, onSchliessen }: Props) {
             {baum.name}
           </h2>
           <p className="mt-1 text-[14px]">
-            <i>{art.wiss}</i> <span className="text-tinte-weich">· {art.name}</span>
+            <i>{baum.wiss}</i> {baum.artName && <span className="text-tinte-weich">· {baum.artName}</span>}
           </p>
           <p className="mt-0.5 text-[13px] text-tinte-weich">
             {baum.ort}, {LAENDER[baum.land]} · {km.toLocaleString("de-DE")} km von Moosburg
           </p>
+          {baum.lageUngefaehr && (
+            <p className="mt-1 text-[13px]">
+              <span className="font-semibold">Lage ungefähr:</span> Ortspunkt von {baum.lageUngefaehr}. Die genaue Stelle steht bei der Quelle.
+            </p>
+          )}
         </div>
         <button type="button" onClick={onSchliessen} aria-label="Blatt schließen" className="-mr-1 shrink-0 p-1.5 hover:bg-papier">
           <X size={20} weight="bold" />
@@ -196,68 +208,79 @@ export function Blatt({ baum, jahr, monat, tage, onSchliessen }: Props) {
         </ul>
       )}
 
-      <section className="mt-4 flex items-center gap-3.5 bg-papier p-3" aria-label="Was jetzt geht">
-        <span className="shrink-0" aria-hidden="true" dangerouslySetInnerHTML={{ __html: ringSvg(jahr, monat, stufe, 56) }} />
-        <div className="min-w-0">
-          {beste ? (
-            <>
-              <p className="text-[13px] font-semibold text-tinte-weich">
-                Im {MONATE[monat - 1]}, {tageText(tage)} bis zuhause
-              </p>
-              <p className="text-[18px] leading-snug font-bold">{beste.methode.name}</p>
-              <p className="text-[13px]" style={{ color: beste.methode.klon ? "var(--color-klon)" : "var(--color-samen)" }}>
-                <span className="font-semibold">{beste.methode.klon ? "Klon" : "Nachkomme"}</span>
-                <span className="text-tinte-weich"> · Erfolg {beste.am.erfolg} · hält {beste.methode.haelt.split(",")[0]}</span>
-              </p>
-            </>
-          ) : (
-            <>
-              <p className="text-[13px] font-semibold text-tinte-weich">
-                Im {MONATE[monat - 1]}, {tageText(tage)} bis zuhause
-              </p>
-              <p className="text-[18px] leading-snug font-bold">Jetzt geht nichts</p>
-              <p className="text-[13px] text-tinte-weich">
-                {spaeter
-                  ? `Ab ${MONATE[spaeter.monat - 1]}: ${spaeter.option.methode.name}`
-                  : `Bei ${tageText(tage)} Reise geht hier das ganze Jahr nichts.`}
-              </p>
-            </>
-          )}
-        </div>
-      </section>
+      {art && jahr && stufe ? (
+        <>
+        <section className="mt-4 flex items-center gap-3.5 bg-papier p-3" aria-label="Was jetzt geht">
+          <span className="shrink-0" aria-hidden="true" dangerouslySetInnerHTML={{ __html: ringSvg(jahr, monat, stufe, 56) }} />
+          <div className="min-w-0">
+            {beste ? (
+              <>
+                <p className="text-[13px] font-semibold text-tinte-weich">
+                  Im {MONATE[monat - 1]}, {tageText(tage)} bis zuhause
+                </p>
+                <p className="text-[18px] leading-snug font-bold">{beste.methode.name}</p>
+                <p className="text-[13px]" style={{ color: beste.methode.klon ? "var(--color-klon)" : "var(--color-samen)" }}>
+                  <span className="font-semibold">{beste.methode.klon ? "Klon" : "Nachkomme"}</span>
+                  <span className="text-tinte-weich"> · Erfolg {beste.am.erfolg} · hält {beste.methode.haelt.split(",")[0]}</span>
+                </p>
+              </>
+            ) : (
+              <>
+                <p className="text-[13px] font-semibold text-tinte-weich">
+                  Im {MONATE[monat - 1]}, {tageText(tage)} bis zuhause
+                </p>
+                <p className="text-[18px] leading-snug font-bold">Jetzt geht nichts</p>
+                <p className="text-[13px] text-tinte-weich">
+                  {spaeter
+                    ? `Ab ${MONATE[spaeter.monat - 1]}: ${spaeter.option.methode.name}`
+                    : `Bei ${tageText(tage)} Reise geht hier das ganze Jahr nichts.`}
+                </p>
+              </>
+            )}
+          </div>
+        </section>
 
-      <p className="mt-3 flex items-center gap-2 text-[14px]">
-        <svg width="18" height="18" viewBox="13 13 14 14" aria-hidden="true" dangerouslySetInnerHTML={{ __html: mitte(stufe, 5) }} />
-        <span className="font-semibold">{STUFE_TEXT[stufe]}</span>
-        <span className="text-[12px] text-tinte-weich">Zone {art.zone}, Moosburg 7a</span>
-      </p>
-
-      <section className="mt-5" aria-labelledby="vermehrung">
-        <div className="flex items-baseline justify-between">
-          <h3 id="vermehrung" className="text-[15px] font-bold">
-            Was die Art hergibt
-          </h3>
-          <span className="flex items-center gap-1.5 text-[12px] text-tinte-weich">
-            <span className="inline-block h-3.5 w-[2px] bg-tinte" aria-hidden="true" />
-            deine Reise, {tageText(tage)}
-          </span>
-        </div>
-        <div className="mt-2 grid grid-cols-12 gap-[2px] text-center text-[10px] text-tinte-weich" aria-hidden="true">
-          {MONAT_KURZ.map((k, i) => (
-            <span key={i} className={i + 1 === monat ? "font-bold text-tinte" : ""}>
-              {k}
-            </span>
-          ))}
-        </div>
-        <div className="mt-1">
-          {opts.map((o) => (
-            <Methode key={o.id} o={o} monat={monat} tage={tage} />
-          ))}
-        </div>
-        <p className="border-t border-linie pt-2 text-[12px] text-tinte-weich">
-          Haltbarkeit und Erfolg sind Richtwerte. „Einschätzung“ heißt: nicht aus einer Quelle belegt.
+        <p className="mt-3 flex items-center gap-2 text-[14px]">
+          <svg width="18" height="18" viewBox="13 13 14 14" aria-hidden="true" dangerouslySetInnerHTML={{ __html: mitte(stufe, 5) }} />
+          <span className="font-semibold">{STUFE_TEXT[stufe]}</span>
+          <span className="text-[12px] text-tinte-weich">Zone {art.zone}, Moosburg 7a</span>
         </p>
-      </section>
+
+        <section className="mt-5" aria-labelledby="vermehrung">
+          <div className="flex items-baseline justify-between">
+            <h3 id="vermehrung" className="text-[15px] font-bold">
+              Was die Art hergibt
+            </h3>
+            <span className="flex items-center gap-1.5 text-[12px] text-tinte-weich">
+              <span className="inline-block h-3.5 w-[2px] bg-tinte" aria-hidden="true" />
+              deine Reise, {tageText(tage)}
+            </span>
+          </div>
+          <div className="mt-2 grid grid-cols-12 gap-[2px] text-center text-[10px] text-tinte-weich" aria-hidden="true">
+            {MONAT_KURZ.map((k, i) => (
+              <span key={i} className={i + 1 === monat ? "font-bold text-tinte" : ""}>
+                {k}
+              </span>
+            ))}
+          </div>
+          <div className="mt-1">
+            {opts.map((o) => (
+              <Methode key={o.id} o={o} monat={monat} tage={tage} />
+            ))}
+          </div>
+          <p className="border-t border-linie pt-2 text-[12px] text-tinte-weich">
+            Haltbarkeit und Erfolg sind Richtwerte. „Einschätzung“ heißt: nicht aus einer Quelle belegt, „offen“: Die Quelle nennt die Methode, aber keinen Erfolg.
+          </p>
+        </section>
+        </>
+      ) : (
+        <section className="mt-4 flex items-center gap-3.5 bg-papier p-3" aria-label="Keine Vermehrungsdaten">
+          <span className="shrink-0" aria-hidden="true" dangerouslySetInnerHTML={{ __html: grauSvg(56) }} />
+          <p className="text-[14px] leading-snug">
+            Für diese Art gibt es noch keine Vermehrungsdaten. PFAF führt sie nicht, deshalb fehlen Zeitfenster, Methoden und Winterhärte.
+          </p>
+        </section>
+      )}
 
       <section className="mt-6" aria-labelledby="geschichte">
         <h3 id="geschichte" className="text-[15px] font-bold">
@@ -298,7 +321,7 @@ export function Blatt({ baum, jahr, monat, tage, onSchliessen }: Props) {
           Quellen
         </h3>
         <ul className="mt-1 space-y-1 text-[13px]">
-          {[...baum.quellen, { titel: `PFAF: ${art.wiss}`, url: art.quelle }].map((q) => (
+          {[...baum.quellen, ...(art ? [{ titel: `PFAF: ${art.wiss}`, url: art.quelle }] : [])].map((q) => (
             <li key={q.url + q.titel}>
               <a href={q.url} target="_blank" rel="noreferrer" className="inline-flex items-center gap-1 underline">
                 {q.titel}
@@ -307,7 +330,7 @@ export function Blatt({ baum, jahr, monat, tage, onSchliessen }: Props) {
             </li>
           ))}
         </ul>
-        <p className="mt-2 text-[12px] text-tinte-weich">Zonenangabe: {art.zoneHerkunft}</p>
+        {art && <p className="mt-2 text-[12px] text-tinte-weich">Zonenangabe: {art.zoneHerkunft}</p>}
       </section>
     </article>
   );

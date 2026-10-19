@@ -1,0 +1,2116 @@
+[
+ {
+  "id": "mt-4597-taxus-baccata-2",
+  "name": "Ankerwycke Yew",
+  "wiss": "Taxus baccata",
+  "artName": "Europäische Eibe",
+  "lat": 51.44163,
+  "lon": -0.5436,
+  "lageText": "Hythe End Road, Wraysbury",
+  "ort": "Hythe End Road, Wraysbury",
+  "land": "GB",
+  "regionen": [
+   "london"
+  ],
+  "platzEuropa": 2,
+  "alter": 2276,
+  "spanne": 300,
+  "messjahr": "2011",
+  "url": "https://www.monumentaltrees.com/de/gbr/england/berkshire/2756_hytheendroad/4597/"
+ },
+ {
+  "id": "mt-10506-tilia-platyphyllos-3",
+  "name": "Tausendjährige Linde (Gerichtslinde)",
+  "wiss": "Tilia platyphyllos",
+  "artName": "Sommer-Linde",
+  "lat": 47.94542,
+  "lon": 13.47296,
+  "lageText": "Attergaustraße, Sankt Georgen im Attergau",
+  "ort": "Attergaustraße, Sankt Georgen im Attergau",
+  "land": "AT",
+  "regionen": [
+   "oesterreich"
+  ],
+  "platzEuropa": 3,
+  "alter": 926,
+  "spanne": 100,
+  "messjahr": "2024",
+  "url": "https://www.monumentaltrees.com/de/aut/oberosterreich/vocklabruck/10506_attergaustrasse/"
+ },
+ {
+  "id": "mt-3259-pinus-nigra-1",
+  "name": "Vier-Brüder-Baum",
+  "wiss": "Pinus nigra",
+  "artName": "Schwarzkiefer",
+  "lat": 47.71834,
+  "lon": 15.98129,
+  "lageText": "Vöstenhof, Bürg-Vöstenhof",
+  "ort": "Vöstenhof, Bürg-Vöstenhof",
+  "land": "AT",
+  "regionen": [
+   "oesterreich"
+  ],
+  "platzEuropa": 1,
+  "alter": 1046,
+  "spanne": null,
+  "messjahr": "2012",
+  "url": "https://www.monumentaltrees.com/de/aut/niederosterreich/neunkirchen/3259_vostenhof/"
+ },
+ {
+  "id": "mt-5120-tilia-cordata-2",
+  "name": "Gerichtslinde",
+  "wiss": "Tilia cordata",
+  "artName": "Winter-Linde",
+  "lat": 49.74107,
+  "lon": 10.35113,
+  "lageText": "Castell",
+  "ort": "Auf dem Burgberg, Castell",
+  "land": "DE",
+  "regionen": [
+   "sueddeutschland"
+  ],
+  "platzEuropa": 2,
+  "alter": 826,
+  "spanne": 300,
+  "messjahr": "2012",
+  "url": "https://www.monumentaltrees.com/de/deu/bayern/kitzingen/5120_aufdemburgberg/"
+ },
+ {
+  "id": "mt-34609-quercus-sp-2",
+  "name": "Quercus sp. in Bures-sur-Yvette",
+  "wiss": "Quercus (sp.)",
+  "artName": "Quercus sp.",
+  "lat": 48.69722,
+  "lon": 2.16327,
+  "lageText": "Bures-sur-Yvette",
+  "ort": "Unknown location, Bures-sur-Yvette",
+  "land": "FR",
+  "regionen": [
+   "paris"
+  ],
+  "platzEuropa": 2,
+  "alter": 576,
+  "spanne": 50,
+  "messjahr": "2024",
+  "url": "https://www.monumentaltrees.com/de/fra/essonne/buressuryvette/34609_unknown/"
+ },
+ {
+  "id": "mt-34608-quercus-sp-3",
+  "name": "Chêne du Petit-Launay / Chêne pieuvre",
+  "wiss": "Quercus (sp.)",
+  "artName": "Quercus sp.",
+  "lat": 48.69722,
+  "lon": 2.16327,
+  "lageText": "Bures-sur-Yvette",
+  "ort": "Unknown location, Bures-sur-Yvette",
+  "land": "FR",
+  "regionen": [
+   "paris"
+  ],
+  "platzEuropa": 3,
+  "alter": 576,
+  "spanne": 50,
+  "messjahr": "2024",
+  "url": "https://www.monumentaltrees.com/de/fra/essonne/buressuryvette/34608_unknown/"
+ },
+ {
+  "id": "mt-15577-tilia-sp-3",
+  "name": "Schremser Linde zum Rechberg",
+  "wiss": "Tilia (sp.)",
+  "artName": "Tilia sp.",
+  "lat": 47.27153,
+  "lon": 15.32602,
+  "lageText": "Frohnleiten",
+  "ort": "Rechbergstraße nahe dem Talbach, Frohnleiten",
+  "land": "AT",
+  "regionen": [
+   "oesterreich"
+  ],
+  "platzEuropa": 3,
+  "alter": 376,
+  "spanne": 50,
+  "messjahr": "2017",
+  "url": "https://www.monumentaltrees.com/de/aut/steiermark/grazumgebung/15577_rechbergstraenahedemtalbach/"
+ },
+ {
+  "id": "mt-21889-cedrus-libani-3",
+  "name": "Libanon-Zeder in Saint-Gratien",
+  "wiss": "Cedrus libani",
+  "artName": "Libanon-Zeder",
+  "lat": 48.9704,
+  "lon": 2.28404,
+  "lageText": "Place Gambetta, Saint-Gratien",
+  "ort": "Le Mairie, Place Gambetta, Saint-Gratien",
+  "land": "FR",
+  "regionen": [
+   "paris"
+  ],
+  "platzEuropa": 3,
+  "alter": 316,
+  "spanne": null,
+  "messjahr": "2019",
+  "url": "https://www.monumentaltrees.com/de/fra/valdoise/saintgratien/21889_lemairieplacegambetta/"
+ },
+ {
+  "id": "mt-8458-crataegus-monogyna-2",
+  "name": "Eingriffeliger Weißdorn in Leopoldstadt",
+  "wiss": "Crataegus monogyna",
+  "artName": "Eingriffeliger Weißdorn",
+  "lat": 48.19165,
+  "lon": 16.44333,
+  "lageText": "Prater, Leopoldstadt, Wien",
+  "ort": "Prater, Leopoldstadt",
+  "land": "AT",
+  "regionen": [
+   "oesterreich",
+   "wien"
+  ],
+  "platzEuropa": 2,
+  "alter": 314,
+  "spanne": 50,
+  "messjahr": "2012",
+  "url": "https://www.monumentaltrees.com/de/aut/wien/leopoldstadt/3254_prater/8458/"
+ },
+ {
+  "id": "mt-25698-pyrus-pyraster-2",
+  "name": "Wildbirne in Haslau bei Birkfeld",
+  "wiss": "Pyrus pyraster",
+  "artName": "Wildbirne",
+  "lat": 47.36375,
+  "lon": 15.62954,
+  "lageText": "Haslau, Haslau bei Birkfeld",
+  "ort": "Haslau, Haslau bei Birkfeld",
+  "land": "AT",
+  "regionen": [
+   "oesterreich"
+  ],
+  "platzEuropa": 2,
+  "alter": 426,
+  "spanne": 20,
+  "messjahr": "2016",
+  "url": "https://www.monumentaltrees.com/de/aut/steiermark/weiz/6223_haslau/25698/"
+ },
+ {
+  "id": "mt-19668-picea-abies-1",
+  "name": "7wipfler, Kandelaberfichte",
+  "wiss": "Picea abies",
+  "artName": "Gemeine Fichte",
+  "lat": 46.74234,
+  "lon": 13.85022,
+  "lageText": "Laastadt",
+  "ort": "Kandelaberfichte, Hofwanderweges, Laastadt",
+  "land": "AT",
+  "regionen": [
+   "oesterreich"
+  ],
+  "platzEuropa": 1,
+  "alter": 508,
+  "spanne": 50,
+  "messjahr": "2018",
+  "url": "https://www.monumentaltrees.com/de/aut/karnten/villachland/19668_hofwanderweges/"
+ },
+ {
+  "id": "mt-24780-platanus-hispanica-2",
+  "name": "Ahornblättrige Platane in Stetteldorf am Wagram",
+  "wiss": "Platanus × hispanica",
+  "artName": "Ahornblättrige Platane",
+  "lat": 48.40528,
+  "lon": 16.02285,
+  "lageText": "Schloss Juliusburg, Stetteldorf am Wagram",
+  "ort": "Schloss Juliusburg, Stetteldorf am Wagram",
+  "land": "AT",
+  "regionen": [
+   "oesterreich",
+   "wien"
+  ],
+  "platzEuropa": 2,
+  "alter": 424,
+  "spanne": 2,
+  "messjahr": "2020",
+  "url": "https://www.monumentaltrees.com/de/aut/niederosterreich/tulln/24780_schlossjuliusburg/"
+ },
+ {
+  "id": "mt-24780-platanus-hispanica-3",
+  "name": "Ahornblättrige Platane in Stetteldorf am Wagram",
+  "wiss": "Platanus × hispanica",
+  "artName": "Ahornblättrige Platane",
+  "lat": 48.40528,
+  "lon": 16.02285,
+  "lageText": "Schloss Juliusburg, Stetteldorf am Wagram",
+  "ort": "Schloss Juliusburg, Stetteldorf am Wagram",
+  "land": "AT",
+  "regionen": [
+   "oesterreich",
+   "wien"
+  ],
+  "platzEuropa": 3,
+  "alter": 424,
+  "spanne": 2,
+  "messjahr": "2021",
+  "url": "https://www.monumentaltrees.com/de/aut/niederosterreich/tulln/24780_schlossjuliusburg/"
+ },
+ {
+  "id": "mt-27551-corylus-colurna-1",
+  "name": "Baum-Hasel in Alland",
+  "wiss": "Corylus colurna",
+  "artName": "Baum-Hasel",
+  "lat": 48.07495,
+  "lon": 16.06794,
+  "lageText": "Weissenweg, Alland",
+  "ort": "Weissenweg, Alland",
+  "land": "AT",
+  "regionen": [
+   "oesterreich",
+   "wien"
+  ],
+  "platzEuropa": 1,
+  "alter": 466,
+  "spanne": 10,
+  "messjahr": "2021",
+  "url": "https://www.monumentaltrees.com/de/aut/niederosterreich/baden/27551_weissenweg/"
+ },
+ {
+  "id": "mt-25792-abies-nordmanniana-2",
+  "name": "Nordmann-Tanne in Hutteldorf",
+  "wiss": "Abies nordmanniana",
+  "artName": "Nordmann-Tanne",
+  "lat": 48.20365,
+  "lon": 16.25324,
+  "lageText": "Schloss Miller Aichholz, Hutteldorf, Wien",
+  "ort": "Schloss Miller Aichholz, Hutteldorf",
+  "land": "AT",
+  "regionen": [
+   "oesterreich",
+   "wien"
+  ],
+  "platzEuropa": 2,
+  "alter": 276,
+  "spanne": 30,
+  "messjahr": "2016",
+  "url": "https://www.monumentaltrees.com/de/aut/wien/hietzing/13391_schlossmilleraichholz/25792/"
+ },
+ {
+  "id": "mt-65017-ginkgo-biloba-1",
+  "name": "Hetusser opiu fopfjen 44",
+  "wiss": "Ginkgo biloba",
+  "artName": "Ginkgo",
+  "lat": 51.22957,
+  "lon": 6.78419,
+  "lageText": "Hofgarten, Düsseldorf",
+  "ort": "Hofgarten, Düsseldorf",
+  "land": "DE",
+  "regionen": [
+   "koeln"
+  ],
+  "platzEuropa": 1,
+  "alter": 346,
+  "spanne": null,
+  "messjahr": "2024",
+  "url": "https://www.monumentaltrees.com/de/deu/nordrheinwestfalen/dusseldorf/35105_hofgarten/65017/"
+ },
+ {
+  "id": "mt-7517-liriodendron-tulipifera-1",
+  "name": "Tulpenbaum in Esher",
+  "wiss": "Liriodendron tulipifera",
+  "artName": "Tulpenbaum",
+  "lat": 51.36939,
+  "lon": -0.36541,
+  "lageText": "Esher",
+  "ort": "Unite Esher Place, Esher",
+  "land": "GB",
+  "regionen": [
+   "london"
+  ],
+  "platzEuropa": 1,
+  "alter": 341,
+  "spanne": null,
+  "messjahr": "2019",
+  "url": "https://www.monumentaltrees.com/de/gbr/england/surrey/7517_uniteesherplace/"
+ },
+ {
+  "id": "mt-14190--1",
+  "name": "Unbestimmter Baum in Grinzing",
+  "wiss": "unbestimmt",
+  "artName": "Art unbestimmt",
+  "lat": 48.25718,
+  "lon": 16.33824,
+  "lageText": "Himmelstraße, Grinzing, Wien",
+  "ort": "Himmelstraße, Grinzing",
+  "land": "AT",
+  "regionen": [
+   "oesterreich",
+   "wien"
+  ],
+  "platzEuropa": 1,
+  "alter": 307,
+  "spanne": null,
+  "messjahr": "2016",
+  "url": "https://www.monumentaltrees.com/de/aut/wien/dobling/14190_himmelstrae/"
+ },
+ {
+  "id": "mt-8414-acer-sempervirens-1",
+  "name": "Kreta-Ahorn in Paris",
+  "wiss": "Acer sempervirens",
+  "artName": "Kreta-Ahorn",
+  "lat": 48.84404,
+  "lon": 2.35973,
+  "lageText": "Jardin des Plantes, Paris, Paris",
+  "ort": "Jardin des Plantes, Paris",
+  "land": "FR",
+  "regionen": [
+   "paris"
+  ],
+  "platzEuropa": 1,
+  "alter": 294,
+  "spanne": null,
+  "messjahr": "2012",
+  "url": "https://www.monumentaltrees.com/de/fra/paris/paris/1794_jardindesplantes/8414/",
+  "schutz": "Botanischer Garten oder Arboretum"
+ },
+ {
+  "id": "mt-12932-styphnolobium-japonicum-3",
+  "name": "Japanischer Schnurbaum in Kew",
+  "wiss": "Styphnolobium japonicum",
+  "artName": "Japanischer Schnurbaum",
+  "lat": 51.4833,
+  "lon": -0.29307,
+  "lageText": "Royal Botanic Gardens, Kew, London",
+  "ort": "Royal Botanic Gardens, Kew",
+  "land": "GB",
+  "regionen": [
+   "london"
+  ],
+  "platzEuropa": 3,
+  "alter": 273,
+  "spanne": 5,
+  "messjahr": "2017",
+  "url": "https://www.monumentaltrees.com/de/gbr/england/cityoflondon/965_royalbotanicgardens/12932/",
+  "schutz": "Botanischer Garten oder Arboretum"
+ },
+ {
+  "id": "mt-20817-encephalartos-altensteinii-1",
+  "name": "E. altensteinii in Kew",
+  "wiss": "Encephalartos altensteinii",
+  "artName": "E. altensteinii",
+  "lat": 51.4833,
+  "lon": -0.29307,
+  "lageText": "Royal Botanic Gardens, Kew, London",
+  "ort": "Royal Botanic Gardens, Kew",
+  "land": "GB",
+  "regionen": [
+   "london"
+  ],
+  "platzEuropa": 1,
+  "alter": 276,
+  "spanne": null,
+  "messjahr": "2015",
+  "url": "https://www.monumentaltrees.com/de/gbr/england/cityoflondon/965_royalbotanicgardens/20817/",
+  "schutz": "Botanischer Garten oder Arboretum"
+ },
+ {
+  "id": "mt-20817-encephalartos-altensteinii-2",
+  "name": "E. altensteinii in Kew",
+  "wiss": "Encephalartos altensteinii",
+  "artName": "E. altensteinii",
+  "lat": 51.4833,
+  "lon": -0.29307,
+  "lageText": "Royal Botanic Gardens, Kew, London",
+  "ort": "Royal Botanic Gardens, Kew",
+  "land": "GB",
+  "regionen": [
+   "london"
+  ],
+  "platzEuropa": 2,
+  "alter": 251,
+  "spanne": null,
+  "messjahr": "2015",
+  "url": "https://www.monumentaltrees.com/de/gbr/england/cityoflondon/965_royalbotanicgardens/20817/",
+  "schutz": "Botanischer Garten oder Arboretum"
+ },
+ {
+  "id": "mt-14470-quercus-macrocarpa-2",
+  "name": "Großfrüchtige Eiche in Hohenheim",
+  "wiss": "Quercus macrocarpa",
+  "artName": "Großfrüchtige Eiche",
+  "lat": 48.71073,
+  "lon": 9.20771,
+  "lageText": "Hohenheimer Gärten, Hohenheim",
+  "ort": "Hohenheimer Gärten, Hohenheim",
+  "land": "DE",
+  "regionen": [
+   "sueddeutschland"
+  ],
+  "platzEuropa": 2,
+  "alter": 227,
+  "spanne": null,
+  "messjahr": "2019",
+  "url": "https://www.monumentaltrees.com/de/deu/badenwurttemberg/stuttgart/6270_hohenheimergarten/14470/"
+ },
+ {
+  "id": "mt-6175-quercus-macrocarpa-3",
+  "name": "Großfrüchtige Eiche in Paris",
+  "wiss": "Quercus macrocarpa",
+  "artName": "Großfrüchtige Eiche",
+  "lat": 48.84404,
+  "lon": 2.35973,
+  "lageText": "Jardin des Plantes, Paris, Paris",
+  "ort": "Jardin des Plantes, Paris",
+  "land": "FR",
+  "regionen": [
+   "paris"
+  ],
+  "platzEuropa": 3,
+  "alter": 215,
+  "spanne": null,
+  "messjahr": "2012",
+  "url": "https://www.monumentaltrees.com/de/fra/paris/paris/1794_jardindesplantes/6175/",
+  "schutz": "Botanischer Garten oder Arboretum"
+ },
+ {
+  "id": "mt-21213-gleditsia-triacanthos-3",
+  "name": "Amerikanische Gleditschie in Werneck",
+  "wiss": "Gleditsia triacanthos",
+  "artName": "Amerikanische Gleditschie",
+  "lat": 49.98623,
+  "lon": 10.09559,
+  "lageText": "Werneck",
+  "ort": "Schlosses Werneck, Werneck",
+  "land": "DE",
+  "regionen": [
+   "sueddeutschland"
+  ],
+  "platzEuropa": 3,
+  "alter": 182,
+  "spanne": 20,
+  "messjahr": "2015",
+  "url": "https://www.monumentaltrees.com/de/deu/bayern/schweinfurt/4676_schlosseswerneck/21213/"
+ },
+ {
+  "id": "mt-32920-cercis-siliquastrum-1",
+  "name": "Judasbaum in L'Hay les - Roses",
+  "wiss": "Cercis siliquastrum",
+  "artName": "Judasbaum",
+  "lat": 48.77905,
+  "lon": 2.3373,
+  "lageText": "L'Hay les - Roses",
+  "ort": "Square d'Leon Elmenik, L'Hay les - Roses",
+  "land": "FR",
+  "regionen": [
+   "paris"
+  ],
+  "platzEuropa": 1,
+  "alter": 236,
+  "spanne": 30,
+  "messjahr": "2017",
+  "url": "https://www.monumentaltrees.com/de/fra/valdemarne/ha%C3%BFlesroses/17477_squaredleonelmenik/32920/"
+ },
+ {
+  "id": "mt-32921-cercis-siliquastrum-2",
+  "name": "Judasbaum in L'Hay les - Roses",
+  "wiss": "Cercis siliquastrum",
+  "artName": "Judasbaum",
+  "lat": 48.77905,
+  "lon": 2.3373,
+  "lageText": "L'Hay les - Roses",
+  "ort": "Square d'Leon Elmenik, L'Hay les - Roses",
+  "land": "FR",
+  "regionen": [
+   "paris"
+  ],
+  "platzEuropa": 2,
+  "alter": 236,
+  "spanne": 30,
+  "messjahr": "2017",
+  "url": "https://www.monumentaltrees.com/de/fra/valdemarne/ha%C3%BFlesroses/17477_squaredleonelmenik/32921/"
+ },
+ {
+  "id": "mt-32922-cercis-siliquastrum-3",
+  "name": "Judasbaum in L'Hay les - Roses",
+  "wiss": "Cercis siliquastrum",
+  "artName": "Judasbaum",
+  "lat": 48.77905,
+  "lon": 2.3373,
+  "lageText": "L'Hay les - Roses",
+  "ort": "Square d'Leon Elmenik, L'Hay les - Roses",
+  "land": "FR",
+  "regionen": [
+   "paris"
+  ],
+  "platzEuropa": 3,
+  "alter": 236,
+  "spanne": 30,
+  "messjahr": "2017",
+  "url": "https://www.monumentaltrees.com/de/fra/valdemarne/ha%C3%BFlesroses/17477_squaredleonelmenik/32922/"
+ },
+ {
+  "id": "mt-16370-catalpa-bignonioides-1",
+  "name": "Gewöhnlicher Trompetenbaum in Potsdam",
+  "wiss": "Catalpa bignonioides",
+  "artName": "Gewöhnlicher Trompetenbaum",
+  "lat": 52.40093,
+  "lon": 13.05914,
+  "lageText": "Potsdam",
+  "ort": "Schlosspark Sanssouci, Potsdam",
+  "land": "DE",
+  "regionen": [
+   "berlin"
+  ],
+  "platzEuropa": 1,
+  "alter": 236,
+  "spanne": 5,
+  "messjahr": "2018",
+  "url": "https://www.monumentaltrees.com/de/deu/brandenburg/potsdam/5739_schlossparksanssouci/16370/"
+ },
+ {
+  "id": "mt-12926-quercus-turneri-1",
+  "name": "Hybrid-Eiche in Kew",
+  "wiss": "Quercus × turneri",
+  "artName": "Hybrid-Eiche",
+  "lat": 51.4833,
+  "lon": -0.29307,
+  "lageText": "Royal Botanic Gardens, Kew, London",
+  "ort": "Royal Botanic Gardens, Kew",
+  "land": "GB",
+  "regionen": [
+   "london"
+  ],
+  "platzEuropa": 1,
+  "alter": 228,
+  "spanne": null,
+  "messjahr": "2017",
+  "url": "https://www.monumentaltrees.com/de/gbr/england/cityoflondon/965_royalbotanicgardens/12926/",
+  "schutz": "Botanischer Garten oder Arboretum"
+ },
+ {
+  "id": "mt-16619-quercus-turneri-2",
+  "name": "Hybrid-Eiche in Potsdam",
+  "wiss": "Quercus × turneri",
+  "artName": "Hybrid-Eiche",
+  "lat": 52.40093,
+  "lon": 13.05914,
+  "lageText": "Potsdam",
+  "ort": "Schlosspark Sanssouci, Potsdam",
+  "land": "DE",
+  "regionen": [
+   "berlin"
+  ],
+  "platzEuropa": 2,
+  "alter": 176,
+  "spanne": 5,
+  "messjahr": "2018",
+  "url": "https://www.monumentaltrees.com/de/deu/brandenburg/potsdam/5739_schlossparksanssouci/16619/"
+ },
+ {
+  "id": "mt-45166-populus-canadensis-2",
+  "name": "Hybrid-Schwarzpappel in Mitte",
+  "wiss": "Populus × canadensis",
+  "artName": "Hybrid-Schwarzpappel",
+  "lat": 52.50978,
+  "lon": 13.35726,
+  "lageText": "Tiergarten, Mitte, Berlin",
+  "ort": "Tiergarten, Mitte",
+  "land": "DE",
+  "regionen": [
+   "berlin"
+  ],
+  "platzEuropa": 2,
+  "alter": 224,
+  "spanne": null,
+  "messjahr": "2022",
+  "url": "https://www.monumentaltrees.com/de/deu/berlin/berlin/24150_tiergarten/45166/"
+ },
+ {
+  "id": "mt-10535-sorbus-torminalis-1",
+  "name": "Brunngarten",
+  "wiss": "Sorbus torminalis",
+  "artName": "Elsbeere",
+  "lat": 48.10071,
+  "lon": 15.74812,
+  "lageText": "Michelbach",
+  "ort": "Bauernhofes \"Auf der Prinz\", Michelbach",
+  "land": "AT",
+  "regionen": [
+   "oesterreich",
+   "wien"
+  ],
+  "platzEuropa": 1,
+  "alter": 226,
+  "spanne": 50,
+  "messjahr": "2015",
+  "url": "https://www.monumentaltrees.com/de/aut/niederosterreich/sanktpoltenland/10535_bauernhofesaufderprinz/"
+ },
+ {
+  "id": "mt-10591-sorbus-torminalis-2",
+  "name": "Dolln-Elsbeere",
+  "wiss": "Sorbus torminalis",
+  "artName": "Elsbeere",
+  "lat": 48.10071,
+  "lon": 15.74812,
+  "lageText": "Michelbach",
+  "ort": "Dolln, via a vis Thoma, Michelbach",
+  "land": "AT",
+  "regionen": [
+   "oesterreich",
+   "wien"
+  ],
+  "platzEuropa": 2,
+  "alter": 226,
+  "spanne": 30,
+  "messjahr": "2015",
+  "url": "https://www.monumentaltrees.com/de/aut/niederosterreich/sanktpoltenland/10591_dollnviaavisthoma/"
+ },
+ {
+  "id": "mt-4673-sorbus-torminalis-3",
+  "name": "Elsbeere in Herpersdorf",
+  "wiss": "Sorbus torminalis",
+  "artName": "Elsbeere",
+  "lat": 49.37268,
+  "lon": 11.07818,
+  "lageText": "Herpersdorf",
+  "ort": "Ortschaft, Herpersdorf",
+  "land": "DE",
+  "regionen": [
+   "sueddeutschland"
+  ],
+  "platzEuropa": 3,
+  "alter": 176,
+  "spanne": 50,
+  "messjahr": "2012",
+  "url": "https://www.monumentaltrees.com/de/deu/bayern/neustadtbadwindsheim/4673_ortschaft/"
+ },
+ {
+  "id": "mt-24193-torreya-nucifera-2",
+  "name": "Japanische Nusseibe in Potsdam",
+  "wiss": "Torreya nucifera",
+  "artName": "Japanische Nusseibe",
+  "lat": 52.40093,
+  "lon": 13.05914,
+  "lageText": "Potsdam",
+  "ort": "Schlosspark Sanssouci, Potsdam",
+  "land": "DE",
+  "regionen": [
+   "berlin"
+  ],
+  "platzEuropa": 2,
+  "alter": 54,
+  "spanne": null,
+  "messjahr": "2016",
+  "url": "https://www.monumentaltrees.com/de/deu/brandenburg/potsdam/5739_schlossparksanssouci/24193/"
+ },
+ {
+  "id": "mt-64348-cunninghamia-lanceolata-1",
+  "name": "Spießtanne in Esher",
+  "wiss": "Cunninghamia lanceolata",
+  "artName": "Spießtanne",
+  "lat": 51.35638,
+  "lon": -0.37809,
+  "lageText": "Claremont Landscape Gardens, Esher",
+  "ort": "Claremont Landscape Gardens, Esher",
+  "land": "GB",
+  "regionen": [
+   "london"
+  ],
+  "platzEuropa": 1,
+  "alter": 207,
+  "spanne": 10,
+  "messjahr": "2024",
+  "url": "https://www.monumentaltrees.com/de/gbr/england/surrey/34859_claremontlandscapegardens/64348/"
+ },
+ {
+  "id": "mt-4864-carya-ovata-2",
+  "name": "Schuppenrinden-Hickory in Bonn",
+  "wiss": "Carya ovata",
+  "artName": "Schuppenrinden-Hickory",
+  "lat": 50.7246,
+  "lon": 7.09278,
+  "lageText": "Botanischer Garten Bonn, Bonn",
+  "ort": "Botanischer Garten Bonn, Bonn",
+  "land": "DE",
+  "regionen": [
+   "koeln"
+  ],
+  "platzEuropa": 2,
+  "alter": 186,
+  "spanne": null,
+  "messjahr": "2011",
+  "url": "https://www.monumentaltrees.com/de/deu/nordrheinwestfalen/bonn/2891_botanischergartenbonn/4864/",
+  "schutz": "Botanischer Garten oder Arboretum"
+ },
+ {
+  "id": "mt-21256-prunus-avium-1",
+  "name": "Vogel-Kirsche in Rösrath",
+  "wiss": "Prunus avium",
+  "artName": "Vogel-Kirsche",
+  "lat": 50.8848,
+  "lon": 7.15558,
+  "lageText": "Wahner Heide, Rösrath",
+  "ort": "Wahner Heide, Rösrath",
+  "land": "DE",
+  "regionen": [
+   "koeln"
+  ],
+  "platzEuropa": 1,
+  "alter": 192,
+  "spanne": 20,
+  "messjahr": "2015",
+  "url": "https://www.monumentaltrees.com/de/deu/nordrheinwestfalen/rheinischbergischerkreis/10853_wahnerheide/21256/"
+ },
+ {
+  "id": "mt-8813-carya-tomentosa-1",
+  "name": "Spottnuss-Hickory in Bonn",
+  "wiss": "Carya tomentosa",
+  "artName": "Spottnuss-Hickory",
+  "lat": 50.7246,
+  "lon": 7.09278,
+  "lageText": "Botanischer Garten Bonn, Bonn",
+  "ort": "Botanischer Garten Bonn, Bonn",
+  "land": "DE",
+  "regionen": [
+   "koeln"
+  ],
+  "platzEuropa": 1,
+  "alter": 186,
+  "spanne": null,
+  "messjahr": "2012",
+  "url": "https://www.monumentaltrees.com/de/deu/nordrheinwestfalen/bonn/2891_botanischergartenbonn/8813/",
+  "schutz": "Botanischer Garten oder Arboretum"
+ },
+ {
+  "id": "mt-11345-carya-tomentosa-2",
+  "name": "Spottnuss-Hickory in Potsdam",
+  "wiss": "Carya tomentosa",
+  "artName": "Spottnuss-Hickory",
+  "lat": 52.40093,
+  "lon": 13.05914,
+  "lageText": "Potsdam",
+  "ort": "Schlosspark Sanssouci, Potsdam",
+  "land": "DE",
+  "regionen": [
+   "berlin"
+  ],
+  "platzEuropa": 2,
+  "alter": 176,
+  "spanne": 5,
+  "messjahr": "2018",
+  "url": "https://www.monumentaltrees.com/de/deu/brandenburg/potsdam/5739_schlossparksanssouci/11345/"
+ },
+ {
+  "id": "mt-4865-carya-cordiformis-1",
+  "name": "Bitternuss-Hickory in Bonn",
+  "wiss": "Carya cordiformis",
+  "artName": "Bitternuss-Hickory",
+  "lat": 50.7246,
+  "lon": 7.09278,
+  "lageText": "Botanischer Garten Bonn, Bonn",
+  "ort": "Botanischer Garten Bonn, Bonn",
+  "land": "DE",
+  "regionen": [
+   "koeln"
+  ],
+  "platzEuropa": 1,
+  "alter": 186,
+  "spanne": null,
+  "messjahr": "2011",
+  "url": "https://www.monumentaltrees.com/de/deu/nordrheinwestfalen/bonn/2891_botanischergartenbonn/4865/",
+  "schutz": "Botanischer Garten oder Arboretum"
+ },
+ {
+  "id": "mt-60728-prunus-cerasifera-3",
+  "name": "Kirschpflaume in Lichtenberg",
+  "wiss": "Prunus cerasifera",
+  "artName": "Kirschpflaume",
+  "lat": 52.52987,
+  "lon": 13.47628,
+  "lageText": "Fennpfuhlpark, Lichtenberg, Berlin",
+  "ort": "Fennpfuhlpark, Lichtenberg",
+  "land": "DE",
+  "regionen": [
+   "berlin"
+  ],
+  "platzEuropa": 3,
+  "alter": 61,
+  "spanne": null,
+  "messjahr": "2023",
+  "url": "https://www.monumentaltrees.com/de/deu/berlin/berlin/33093_fennpfuhlpark/60728/"
+ },
+ {
+  "id": "mt-24814-magnolia-soulangeana-1",
+  "name": "Tulpen-Magnolie in Stuttgart",
+  "wiss": "Magnolia × soulangeana",
+  "artName": "Tulpen-Magnolie",
+  "lat": 48.80585,
+  "lon": 9.20467,
+  "lageText": "Wilhelma, Stuttgart",
+  "ort": "Wilhelma, Stuttgart",
+  "land": "DE",
+  "regionen": [
+   "sueddeutschland"
+  ],
+  "platzEuropa": 1,
+  "alter": 181,
+  "spanne": null,
+  "messjahr": "2016",
+  "url": "https://www.monumentaltrees.com/de/deu/badenwurttemberg/stuttgart/12830_wilhelma/24814/",
+  "schutz": "Botanischer Garten oder Arboretum"
+ },
+ {
+  "id": "mt-1727-quercus-castaneifolia-1",
+  "name": "Kastanienblättrige Eiche in Kew",
+  "wiss": "Quercus castaneifolia",
+  "artName": "Kastanienblättrige Eiche",
+  "lat": 51.4833,
+  "lon": -0.29307,
+  "lageText": "Royal Botanic Gardens, Kew, London",
+  "ort": "Royal Botanic Gardens, Kew",
+  "land": "GB",
+  "regionen": [
+   "london"
+  ],
+  "platzEuropa": 1,
+  "alter": 180,
+  "spanne": null,
+  "messjahr": "2012",
+  "url": "https://www.monumentaltrees.com/de/gbr/england/cityoflondon/965_royalbotanicgardens/1727/",
+  "schutz": "Botanischer Garten oder Arboretum"
+ },
+ {
+  "id": "mt-4866-parrotia-persica-2",
+  "name": "Persischer Eisenholzbaum in Bonn",
+  "wiss": "Parrotia persica",
+  "artName": "Persischer Eisenholzbaum",
+  "lat": 50.7246,
+  "lon": 7.09278,
+  "lageText": "Botanischer Garten Bonn, Bonn",
+  "ort": "Botanischer Garten Bonn, Bonn",
+  "land": "DE",
+  "regionen": [
+   "koeln"
+  ],
+  "platzEuropa": 2,
+  "alter": 142,
+  "spanne": 5,
+  "messjahr": "2011",
+  "url": "https://www.monumentaltrees.com/de/deu/nordrheinwestfalen/bonn/2891_botanischergartenbonn/4866/",
+  "schutz": "Botanischer Garten oder Arboretum"
+ },
+ {
+  "id": "mt-28457-quercus-macranthera-3",
+  "name": "Persische Eiche in Würzburg",
+  "wiss": "Quercus macranthera",
+  "artName": "Persische Eiche",
+  "lat": 49.79294,
+  "lon": 9.94205,
+  "lageText": "Im Ringpark, Würzburg",
+  "ort": "Im Ringpark, Würzburg",
+  "land": "DE",
+  "regionen": [
+   "sueddeutschland"
+  ],
+  "platzEuropa": 3,
+  "alter": 146,
+  "spanne": 10,
+  "messjahr": "2017",
+  "url": "https://www.monumentaltrees.com/de/deu/bayern/wurzburgstadt/5993_imringpark/28457/"
+ },
+ {
+  "id": "mt-12232-cercidiphyllum-japonicum-2",
+  "name": "Japanische Kuchenbaum in Potsdam",
+  "wiss": "Cercidiphyllum japonicum",
+  "artName": "Japanische Kuchenbaum",
+  "lat": 52.40093,
+  "lon": 13.05914,
+  "lageText": "Potsdam",
+  "ort": "Schlosspark Sanssouci, Potsdam",
+  "land": "DE",
+  "regionen": [
+   "berlin"
+  ],
+  "platzEuropa": 2,
+  "alter": 139,
+  "spanne": 3,
+  "messjahr": "2021",
+  "url": "https://www.monumentaltrees.com/de/deu/brandenburg/potsdam/6177_schlossparksanssouci/12232/"
+ },
+ {
+  "id": "mt-12233-cercidiphyllum-japonicum-3",
+  "name": "Japanische Kuchenbaum in Potsdam",
+  "wiss": "Cercidiphyllum japonicum",
+  "artName": "Japanische Kuchenbaum",
+  "lat": 52.40093,
+  "lon": 13.05914,
+  "lageText": "Potsdam",
+  "ort": "Schlosspark Sanssouci, Potsdam",
+  "land": "DE",
+  "regionen": [
+   "berlin"
+  ],
+  "platzEuropa": 3,
+  "alter": 139,
+  "spanne": 3,
+  "messjahr": "2021",
+  "url": "https://www.monumentaltrees.com/de/deu/brandenburg/potsdam/6177_schlossparksanssouci/12233/"
+ },
+ {
+  "id": "mt-5149-ailanthus-altissima-2",
+  "name": "Götterbaum in Landstraße",
+  "wiss": "Ailanthus altissima",
+  "artName": "Götterbaum",
+  "lat": 48.19422,
+  "lon": 16.39555,
+  "lageText": "Landstraße, Wien",
+  "ort": "Geologischen Bundesanstalt Wien, 3.Bezirk, Landstraße",
+  "land": "AT",
+  "regionen": [
+   "oesterreich",
+   "wien"
+  ],
+  "platzEuropa": 2,
+  "alter": 155,
+  "spanne": 30,
+  "messjahr": "2012",
+  "url": "https://www.monumentaltrees.com/de/aut/wien/landstrasse/5149_geologischenbundesanstaltwien3bezirk/"
+ },
+ {
+  "id": "mt-28476-acer-palmatum-2",
+  "name": "Fächer-Ahorn in Würzburg",
+  "wiss": "Acer palmatum",
+  "artName": "Fächer-Ahorn",
+  "lat": 49.79294,
+  "lon": 9.94205,
+  "lageText": "Im Ringpark, Würzburg",
+  "ort": "Im Ringpark, Würzburg",
+  "land": "DE",
+  "regionen": [
+   "sueddeutschland"
+  ],
+  "platzEuropa": 2,
+  "alter": 146,
+  "spanne": 20,
+  "messjahr": "2017",
+  "url": "https://www.monumentaltrees.com/de/deu/bayern/wurzburgstadt/5993_imringpark/28476/"
+ },
+ {
+  "id": "mt-40939-quercus-myrsinifolia-2",
+  "name": "Q. myrsinifolia in Châtenay-Malabry",
+  "wiss": "Quercus myrsinifolia",
+  "artName": "Q. myrsinifolia",
+  "lat": 48.7684,
+  "lon": 2.2712,
+  "lageText": "Rue Chateaubriand, Châtenay-Malabry",
+  "ort": "Arboretum, 102, Rue Chateaubriand, Châtenay-Malabry",
+  "land": "FR",
+  "regionen": [
+   "paris"
+  ],
+  "platzEuropa": 2,
+  "alter": 131,
+  "spanne": 5,
+  "messjahr": "2019",
+  "url": "https://www.monumentaltrees.com/de/fra/hautsdeseine/chatenaymalabry/21927_arboretum102ruechateaubriand/40939/",
+  "schutz": "Botanischer Garten oder Arboretum"
+ },
+ {
+  "id": "mt-56663-abies-cephalonica-1",
+  "name": "Griechische Tanne in Insel Mainau",
+  "wiss": "Abies cephalonica",
+  "artName": "Griechische Tanne",
+  "lat": 47.70625,
+  "lon": 9.19156,
+  "lageText": "Insel Mainau",
+  "ort": "Park, Insel Mainau",
+  "land": "DE",
+  "regionen": [
+   "sueddeutschland"
+  ],
+  "platzEuropa": 1,
+  "alter": 156,
+  "spanne": 30,
+  "messjahr": "2022",
+  "url": "https://www.monumentaltrees.com/de/deu/badenwurttemberg/konstanz/2924_park/56663/",
+  "schutz": "Botanischer Garten oder Arboretum"
+ },
+ {
+  "id": "mt-11924-sorbus-aria-2",
+  "name": "Echte Mehlbeere in Bissingen Ochsenwang",
+  "wiss": "Sorbus aria",
+  "artName": "Echte Mehlbeere",
+  "lat": 48.57958,
+  "lon": 9.51083,
+  "lageText": "Eduard-Mörike-Straße, Bissingen Ochsenwang",
+  "ort": "Eduard-Mörike-Straße, Bissingen Ochsenwang",
+  "land": "DE",
+  "regionen": [
+   "sueddeutschland"
+  ],
+  "platzEuropa": 2,
+  "alter": 126,
+  "spanne": 20,
+  "messjahr": "2020",
+  "url": "https://www.monumentaltrees.com/de/deu/badenwurttemberg/esslingen/11924_eduardmrikestrae/"
+ },
+ {
+  "id": "mt-8827-pinus-bungeana-2",
+  "name": "Bunges Kiefer in Bonn",
+  "wiss": "Pinus bungeana",
+  "artName": "Bunges Kiefer",
+  "lat": 50.7246,
+  "lon": 7.09278,
+  "lageText": "Botanischer Garten Bonn, Bonn",
+  "ort": "Botanischer Garten Bonn, Bonn",
+  "land": "DE",
+  "regionen": [
+   "koeln"
+  ],
+  "platzEuropa": 2,
+  "alter": 116,
+  "spanne": null,
+  "messjahr": "2012",
+  "url": "https://www.monumentaltrees.com/de/deu/nordrheinwestfalen/bonn/2891_botanischergartenbonn/8827/",
+  "schutz": "Botanischer Garten oder Arboretum"
+ },
+ {
+  "id": "mt-10453-salix-sepulcralis-3",
+  "name": "Trauerweide in Iphofen",
+  "wiss": "Salix × sepulcralis",
+  "artName": "Trauerweide",
+  "lat": 49.67829,
+  "lon": 10.33346,
+  "lageText": "Iphofen",
+  "ort": "Am Seeufer, Iphofen",
+  "land": "DE",
+  "regionen": [
+   "sueddeutschland"
+  ],
+  "platzEuropa": 3,
+  "alter": 126,
+  "spanne": 100,
+  "messjahr": "2012",
+  "url": "https://www.monumentaltrees.com/de/deu/bayern/kitzingen/5233_amseeufer/10453/"
+ },
+ {
+  "id": "mt-39656-aesculus-glabra-1",
+  "name": "Ohio-Rosskastanie in Baumschulenweg",
+  "wiss": "Aesculus glabra",
+  "artName": "Ohio-Rosskastanie",
+  "lat": 52.45479,
+  "lon": 13.47486,
+  "lageText": "Späth Arboretum, Baumschulenweg, Berlin",
+  "ort": "Späth Arboretum, Baumschulenweg",
+  "land": "DE",
+  "regionen": [
+   "berlin"
+  ],
+  "platzEuropa": 1,
+  "alter": 139,
+  "spanne": null,
+  "messjahr": "2019",
+  "url": "https://www.monumentaltrees.com/de/deu/berlin/berlin/21259_sptharboretum/39656/",
+  "schutz": "Botanischer Garten oder Arboretum"
+ },
+ {
+  "id": "mt-8734-abies-homolepis-3",
+  "name": "Nikko-Tanne in Uellendahl",
+  "wiss": "Abies homolepis",
+  "artName": "Nikko-Tanne",
+  "lat": 51.28056,
+  "lon": 7.15583,
+  "lageText": "Uellendahl",
+  "ort": "Ehemaligen Parkanlage der Villa Seyd, Uellendahl",
+  "land": "DE",
+  "regionen": [
+   "koeln"
+  ],
+  "platzEuropa": 3,
+  "alter": 121,
+  "spanne": 10,
+  "messjahr": "2014",
+  "url": "https://www.monumentaltrees.com/de/deu/nordrheinwestfalen/wuppertal/8734_ehemaligenparkanlagedervillaseyd/"
+ },
+ {
+  "id": "mt-21091-magnolia-denudata-1",
+  "name": "M. denudata in Weinheim",
+  "wiss": "Magnolia denudata",
+  "artName": "M. denudata",
+  "lat": 49.54761,
+  "lon": 8.66969,
+  "lageText": "Schau- und Sichtungsgarten Hermannshof, Weinheim",
+  "ort": "Schau- und Sichtungsgarten Hermannshof, Weinheim",
+  "land": "DE",
+  "regionen": [
+   "sueddeutschland"
+  ],
+  "platzEuropa": 1,
+  "alter": 136,
+  "spanne": 2,
+  "messjahr": "2019",
+  "url": "https://www.monumentaltrees.com/de/deu/badenwurttemberg/heidelberg/21091_schauundsichtungsgartenhermannshof/",
+  "schutz": "Botanischer Garten oder Arboretum"
+ },
+ {
+  "id": "mt-5177-malus-domestica-2",
+  "name": "Apfelbaum in Zollberg",
+  "wiss": "Malus domestica",
+  "artName": "Apfelbaum",
+  "lat": 48.72801,
+  "lon": 9.30388,
+  "lageText": "Zollberg",
+  "ort": "Am Ortsrand, Zollberg",
+  "land": "DE",
+  "regionen": [
+   "sueddeutschland"
+  ],
+  "platzEuropa": 2,
+  "alter": 126,
+  "spanne": 50,
+  "messjahr": "2012",
+  "url": "https://www.monumentaltrees.com/de/deu/bayern/mainspessart/5177_amortsrand/"
+ },
+ {
+  "id": "mt-5212-malus-domestica-3",
+  "name": "Apfelbaum in Dornau",
+  "wiss": "Malus domestica",
+  "artName": "Apfelbaum",
+  "lat": 49.8968,
+  "lon": 9.1878,
+  "lageText": "Dornau",
+  "ort": "Am Ortsrand, Dornau",
+  "land": "DE",
+  "regionen": [
+   "sueddeutschland"
+  ],
+  "platzEuropa": 3,
+  "alter": 126,
+  "spanne": 50,
+  "messjahr": "2012",
+  "url": "https://www.monumentaltrees.com/de/deu/bayern/miltenberg/5212_amortsrand/"
+ },
+ {
+  "id": "mt-4869-acer-obtusatum-1",
+  "name": "Bosnische Ahorn in Bonn",
+  "wiss": "Acer obtusatum",
+  "artName": "Bosnische Ahorn",
+  "lat": 50.7246,
+  "lon": 7.09278,
+  "lageText": "Botanischer Garten Bonn, Bonn",
+  "ort": "Botanischer Garten Bonn, Bonn",
+  "land": "DE",
+  "regionen": [
+   "koeln"
+  ],
+  "platzEuropa": 1,
+  "alter": 126,
+  "spanne": 5,
+  "messjahr": "2011",
+  "url": "https://www.monumentaltrees.com/de/deu/nordrheinwestfalen/bonn/2891_botanischergartenbonn/4869/",
+  "schutz": "Botanischer Garten oder Arboretum"
+ },
+ {
+  "id": "mt-21795-tetradium-daniellii-1",
+  "name": "Samthaarige Stinkesche in Rahnsdorf",
+  "wiss": "Tetradium daniellii",
+  "artName": "Samthaarige Stinkesche",
+  "lat": 52.43587,
+  "lon": 13.7018,
+  "lageText": "Rahnsdorf, Berlin",
+  "ort": "Familie, Rahnsdorf",
+  "land": "DE",
+  "regionen": [
+   "berlin"
+  ],
+  "platzEuropa": 1,
+  "alter": 126,
+  "spanne": 20,
+  "messjahr": "2019",
+  "url": "https://www.monumentaltrees.com/de/deu/berlin/berlin/21795_familie/"
+ },
+ {
+  "id": "mt-13589-melia-azedarach-2",
+  "name": "Zedrachbaum in Chelsea",
+  "wiss": "Melia azedarach",
+  "artName": "Zedrachbaum",
+  "lat": 51.48886,
+  "lon": -0.16538,
+  "lageText": "Chelsea, London",
+  "ort": "1, St Leonards Terrace, Chelsea",
+  "land": "GB",
+  "regionen": [
+   "london"
+  ],
+  "platzEuropa": 2,
+  "alter": 25,
+  "spanne": null,
+  "messjahr": "2016",
+  "url": "https://www.monumentaltrees.com/de/gbr/england/greaterlondon/13589_1stleonardsterrace/"
+ },
+ {
+  "id": "mt-66287-metasequoia-glyptostroboides-2",
+  "name": "Urweltmammutbaum in Rosenheim",
+  "wiss": "Metasequoia glyptostroboides",
+  "artName": "Urweltmammutbaum",
+  "lat": 47.85461,
+  "lon": 12.12798,
+  "lageText": "Riedergarten, Rosenheim",
+  "ort": "Riedergarten, Rosenheim",
+  "land": "DE",
+  "regionen": [
+   "sueddeutschland"
+  ],
+  "platzEuropa": 2,
+  "alter": 101,
+  "spanne": 10,
+  "messjahr": "2024",
+  "url": "https://www.monumentaltrees.com/de/deu/bayern/rosenheim/35649_riedergarten/66287/"
+ },
+ {
+  "id": "mt-15689-juglans-sp-2",
+  "name": "Juglans sp. in Graz",
+  "wiss": "Juglans (sp.)",
+  "artName": "Juglans sp.",
+  "lat": 47.07087,
+  "lon": 15.43828,
+  "lageText": "Graz",
+  "ort": "Rechten Ufer der Mur an der Kalvarienbrücke, Graz",
+  "land": "AT",
+  "regionen": [
+   "oesterreich"
+  ],
+  "platzEuropa": 2,
+  "alter": 46,
+  "spanne": 10,
+  "messjahr": "2017",
+  "url": "https://www.monumentaltrees.com/de/aut/steiermark/graz/15689_rechtenuferdermuranderkalvarienbrcke/"
+ },
+ {
+  "id": "mt-15250-pinus-holfordiana-3",
+  "name": "P. × holfordiana in Penshurst",
+  "wiss": "Pinus × holfordiana",
+  "artName": "P. × holfordiana",
+  "lat": 51.16127,
+  "lon": 0.17663,
+  "lageText": "Penshurst",
+  "ort": "Redleaf Woods, Penshurst",
+  "land": "GB",
+  "regionen": [
+   "london"
+  ],
+  "platzEuropa": 3,
+  "alter": 84,
+  "spanne": null,
+  "messjahr": "2017",
+  "url": "https://www.monumentaltrees.com/de/gbr/england/kent/15250_redleafwoods/"
+ },
+ {
+  "id": "mt-28384-rhododendron-maximum-1",
+  "name": "Riesen-Rhododendron in Oberfürberg",
+  "wiss": "Rhododendron maximum",
+  "artName": "Riesen-Rhododendron",
+  "lat": 49.47069,
+  "lon": 10.93977,
+  "lageText": "Oberfürberg",
+  "ort": "Ehem. Fürther Waldkrankenhaus (Ludwigspark), Heilstättenst, Oberfürberg",
+  "land": "DE",
+  "regionen": [
+   "sueddeutschland"
+  ],
+  "platzEuropa": 1,
+  "alter": 120,
+  "spanne": 10,
+  "messjahr": "2017",
+  "url": "https://www.monumentaltrees.com/de/deu/bayern/furthstadt/15065_ehemfrtherwaldkrankenhaus_ludwigsparkheilstttenst/28384/"
+ },
+ {
+  "id": "mt-45955-ulmus-pumila-1",
+  "name": "Sibirische Ulme in Charlottenburg",
+  "wiss": "Ulmus pumila",
+  "artName": "Sibirische Ulme",
+  "lat": 52.51575,
+  "lon": 13.30968,
+  "lageText": "Charlottenburg, Berlin",
+  "ort": "Lietzenseeparks, Charlottenburg",
+  "land": "DE",
+  "regionen": [
+   "berlin"
+  ],
+  "platzEuropa": 1,
+  "alter": 119,
+  "spanne": null,
+  "messjahr": "2022",
+  "url": "https://www.monumentaltrees.com/de/deu/berlin/berlin/10978_lietzenseeparks/45955/"
+ },
+ {
+  "id": "mt-53951-picea-breweriana-2",
+  "name": "Siskiyou-Fichte in Kew",
+  "wiss": "Picea breweriana",
+  "artName": "Siskiyou-Fichte",
+  "lat": 51.4833,
+  "lon": -0.29307,
+  "lageText": "Royal Botanic Gardens, Kew, London",
+  "ort": "Royal Botanic Gardens, Kew",
+  "land": "GB",
+  "regionen": [
+   "london"
+  ],
+  "platzEuropa": 2,
+  "alter": 107,
+  "spanne": null,
+  "messjahr": "2021",
+  "url": "https://www.monumentaltrees.com/de/gbr/england/cityoflondon/965_royalbotanicgardens/53951/",
+  "schutz": "Botanischer Garten oder Arboretum"
+ },
+ {
+  "id": "mt-19457-quercus-velutina-1",
+  "name": "Färber-Eiche in Potsdam",
+  "wiss": "Quercus velutina",
+  "artName": "Färber-Eiche",
+  "lat": 52.40093,
+  "lon": 13.05914,
+  "lageText": "Potsdam",
+  "ort": "Schlosspark Sanssouci, Potsdam",
+  "land": "DE",
+  "regionen": [
+   "berlin"
+  ],
+  "platzEuropa": 1,
+  "alter": 116,
+  "spanne": 5,
+  "messjahr": "2018",
+  "url": "https://www.monumentaltrees.com/de/deu/brandenburg/potsdam/5739_schlossparksanssouci/19457/"
+ },
+ {
+  "id": "mt-25021-pinus-aristata-1",
+  "name": "Grannen-Kiefer in Elberfeld",
+  "wiss": "Pinus aristata",
+  "artName": "Grannen-Kiefer",
+  "lat": 51.26025,
+  "lon": 7.16032,
+  "lageText": "Botanischer Garten, Elberfeld",
+  "ort": "Botanischer Garten, Elberfeld",
+  "land": "DE",
+  "regionen": [
+   "koeln"
+  ],
+  "platzEuropa": 1,
+  "alter": 111,
+  "spanne": 10,
+  "messjahr": "2016",
+  "url": "https://www.monumentaltrees.com/de/deu/nordrheinwestfalen/wuppertal/8732_botanischergarten/25021/",
+  "schutz": "Botanischer Garten oder Arboretum"
+ },
+ {
+  "id": "mt-21259-salix-cinerea-1",
+  "name": "Asch-Weide in Rösrath",
+  "wiss": "Salix cinerea",
+  "artName": "Asch-Weide",
+  "lat": 50.8848,
+  "lon": 7.15558,
+  "lageText": "Wahner Heide, Rösrath",
+  "ort": "Wahner Heide, Rösrath",
+  "land": "DE",
+  "regionen": [
+   "koeln"
+  ],
+  "platzEuropa": 1,
+  "alter": 109,
+  "spanne": 10,
+  "messjahr": "2015",
+  "url": "https://www.monumentaltrees.com/de/deu/nordrheinwestfalen/rheinischbergischerkreis/10853_wahnerheide/21259/"
+ },
+ {
+  "id": "mt-34755-platycladus-orientalis-2",
+  "name": "Morgenländischer Lebensbaum in Potsdam",
+  "wiss": "Platycladus orientalis",
+  "artName": "Morgenländischer Lebensbaum",
+  "lat": 52.40093,
+  "lon": 13.05914,
+  "lageText": "Potsdam",
+  "ort": "Schlosspark Sanssouci, Potsdam",
+  "land": "DE",
+  "regionen": [
+   "berlin"
+  ],
+  "platzEuropa": 2,
+  "alter": 75,
+  "spanne": 5,
+  "messjahr": "2018",
+  "url": "https://www.monumentaltrees.com/de/deu/brandenburg/potsdam/5739_schlossparksanssouci/34755/"
+ },
+ {
+  "id": "mt-65977-pinus-coulteri-1",
+  "name": "Coulter-Kiefer in Rocquencourt",
+  "wiss": "Pinus coulteri",
+  "artName": "Coulter-Kiefer",
+  "lat": 48.83054,
+  "lon": 2.11162,
+  "lageText": "Arboretum de Chevreloup, Rocquencourt",
+  "ort": "Arboretum de Chevreloup, Rocquencourt",
+  "land": "FR",
+  "regionen": [
+   "paris"
+  ],
+  "platzEuropa": 1,
+  "alter": 106,
+  "spanne": 10,
+  "messjahr": "2024",
+  "url": "https://www.monumentaltrees.com/de/fra/yvelines/rocquencourt/7205_arboretumdechevreloup/65977/",
+  "schutz": "Botanischer Garten oder Arboretum"
+ },
+ {
+  "id": "mt-15233-pinus-coulteri-2",
+  "name": "Coulter-Kiefer in Wisley",
+  "wiss": "Pinus coulteri",
+  "artName": "Coulter-Kiefer",
+  "lat": 51.32027,
+  "lon": -0.46473,
+  "lageText": "Wisley",
+  "ort": "Royal Horticultural Society's Wisley Garden, Wisley",
+  "land": "GB",
+  "regionen": [
+   "london"
+  ],
+  "platzEuropa": 2,
+  "alter": 70,
+  "spanne": null,
+  "messjahr": "2013",
+  "url": "https://www.monumentaltrees.com/de/gbr/england/surrey/7549_royalhorticulturalsocietyswisleygarden/15233/",
+  "schutz": "Botanischer Garten oder Arboretum"
+ },
+ {
+  "id": "mt-27806-cedrus-brevifolia-2",
+  "name": "Zypern-Zeder in Virginia Water",
+  "wiss": "Cedrus brevifolia",
+  "artName": "Zypern-Zeder",
+  "lat": 51.40336,
+  "lon": -0.56617,
+  "lageText": "Virginia Water",
+  "ort": "Windsor Great Park, Virginia Water",
+  "land": "GB",
+  "regionen": [
+   "london"
+  ],
+  "platzEuropa": 2,
+  "alter": 89,
+  "spanne": null,
+  "messjahr": "2016",
+  "url": "https://www.monumentaltrees.com/de/gbr/england/surrey/14721_windsorgreatpark/27806/"
+ },
+ {
+  "id": "mt-35965-tilia-mongolica-3",
+  "name": "Mongolische Linde in OT Marquardt",
+  "wiss": "Tilia mongolica",
+  "artName": "Mongolische Linde",
+  "lat": 52.45776,
+  "lon": 12.9669,
+  "lageText": "Marquardt",
+  "ort": "Schlosspark, OT Marquardt",
+  "land": "DE",
+  "regionen": [
+   "berlin"
+  ],
+  "platzEuropa": 3,
+  "alter": 10,
+  "spanne": null,
+  "messjahr": "2018",
+  "url": "https://www.monumentaltrees.com/de/deu/brandenburg/potsdam/6876_schlosspark/35965/"
+ },
+ {
+  "id": "mt-54630-zelkova-sinica-1",
+  "name": "Z. sinica in Kew",
+  "wiss": "Zelkova sinica",
+  "artName": "Z. sinica",
+  "lat": 51.4833,
+  "lon": -0.29307,
+  "lageText": "Royal Botanic Gardens, Kew, London",
+  "ort": "Royal Botanic Gardens, Kew",
+  "land": "GB",
+  "regionen": [
+   "london"
+  ],
+  "platzEuropa": 1,
+  "alter": 100,
+  "spanne": null,
+  "messjahr": "2022",
+  "url": "https://www.monumentaltrees.com/de/gbr/england/cityoflondon/965_royalbotanicgardens/54630/",
+  "schutz": "Botanischer Garten oder Arboretum"
+ },
+ {
+  "id": "mt-32472-morus-kagayamae-2",
+  "name": "M. kagayamae in Potsdam",
+  "wiss": "Morus kagayamae",
+  "artName": "M. kagayamae",
+  "lat": 52.43005,
+  "lon": 13.03136,
+  "lageText": "Grenzallee, Potsdam",
+  "ort": "Grenzallee, Potsdam",
+  "land": "DE",
+  "regionen": [
+   "berlin"
+  ],
+  "platzEuropa": 2,
+  "alter": 29,
+  "spanne": null,
+  "messjahr": "2017",
+  "url": "https://www.monumentaltrees.com/de/deu/brandenburg/potsdam/17203_grenzallee/32472/"
+ },
+ {
+  "id": "mt-71558-thuja-occidentalis-2",
+  "name": "Abendländischer Lebensbaum in Velbert-Langenberg",
+  "wiss": "Thuja occidentalis",
+  "artName": "Abendländischer Lebensbaum",
+  "lat": 51.34811,
+  "lon": 7.12436,
+  "lageText": "Stiller Park, Velbert-Langenberg",
+  "ort": "Stiller Park, Velbert-Langenberg",
+  "land": "DE",
+  "regionen": [
+   "koeln"
+  ],
+  "platzEuropa": 2,
+  "alter": 43,
+  "spanne": null,
+  "messjahr": "2025",
+  "url": "https://www.monumentaltrees.com/de/deu/nordrheinwestfalen/mettmann/38165_stillerpark/71558/"
+ },
+ {
+  "id": "mt-20629-cornus-kousa-2",
+  "name": "Asiatischer Blüten-Hartriegel in Potsdam",
+  "wiss": "Cornus kousa",
+  "artName": "Asiatischer Blüten-Hartriegel",
+  "lat": 52.40093,
+  "lon": 13.05914,
+  "lageText": "Potsdam",
+  "ort": "Botanischen Garten der Universität Potsdam, Potsdam",
+  "land": "DE",
+  "regionen": [
+   "berlin"
+  ],
+  "platzEuropa": 2,
+  "alter": 31,
+  "spanne": null,
+  "messjahr": "2016",
+  "url": "https://www.monumentaltrees.com/de/deu/brandenburg/potsdam/29167_botanischengartenderuniversittpotsdam/20629/",
+  "schutz": "Botanischer Garten oder Arboretum"
+ },
+ {
+  "id": "mt-63627-betula-sp-2",
+  "name": "Betula sp. in Treptow",
+  "wiss": "Betula (sp.)",
+  "artName": "Betula sp.",
+  "lat": 52.48844,
+  "lon": 13.47031,
+  "lageText": "Treptower Park, Treptow, Berlin",
+  "ort": "Treptower Park, Treptow",
+  "land": "DE",
+  "regionen": [
+   "berlin"
+  ],
+  "platzEuropa": 2,
+  "alter": 31,
+  "spanne": null,
+  "messjahr": "2024",
+  "url": "https://www.monumentaltrees.com/de/deu/berlin/berlin/8699_treptowerpark/63627/"
+ },
+ {
+  "id": "mt-25141-tilia-moltkei-1",
+  "name": "Moltke-Linde in Potsdam",
+  "wiss": "Tilia × moltkei",
+  "artName": "Moltke-Linde",
+  "lat": 52.3946,
+  "lon": 13.06415,
+  "lageText": "Freundschaftsinsel, Potsdam",
+  "ort": "Freundschaftsinsel, Potsdam",
+  "land": "DE",
+  "regionen": [
+   "berlin"
+  ],
+  "platzEuropa": 1,
+  "alter": 72,
+  "spanne": null,
+  "messjahr": "2018",
+  "url": "https://www.monumentaltrees.com/de/deu/brandenburg/potsdam/6213_freundschaftsinsel/25141/"
+ },
+ {
+  "id": "mt-29853-cupressus-glabra-1",
+  "name": "Spindelzypresse Alpengarten",
+  "wiss": "Cupressus glabra",
+  "artName": "C. glabra",
+  "lat": 47.27153,
+  "lon": 15.32602,
+  "lageText": "Frohnleiten",
+  "ort": "Ehemaligen Alpengarten Frohnleiten, Frohnleiten",
+  "land": "AT",
+  "regionen": [
+   "oesterreich"
+  ],
+  "platzEuropa": 1,
+  "alter": 71,
+  "spanne": 20,
+  "messjahr": "2017",
+  "url": "https://www.monumentaltrees.com/de/aut/steiermark/grazumgebung/15861_ehemaligenalpengartenfrohnleiten/29853/"
+ },
+ {
+  "id": "mt-29855-cupressus-glabra-2",
+  "name": "C. glabra in Frohnleiten",
+  "wiss": "Cupressus glabra",
+  "artName": "C. glabra",
+  "lat": 47.27153,
+  "lon": 15.32602,
+  "lageText": "Frohnleiten",
+  "ort": "Ehemaligen Alpengarten Frohnleiten, Frohnleiten",
+  "land": "AT",
+  "regionen": [
+   "oesterreich"
+  ],
+  "platzEuropa": 2,
+  "alter": 71,
+  "spanne": 20,
+  "messjahr": "2017",
+  "url": "https://www.monumentaltrees.com/de/aut/steiermark/grazumgebung/15861_ehemaligenalpengartenfrohnleiten/29855/"
+ },
+ {
+  "id": "mt-56665-quercus-pontica-1",
+  "name": "Armenische Eiche in Insel Mainau",
+  "wiss": "Quercus pontica",
+  "artName": "Armenische Eiche",
+  "lat": 47.70625,
+  "lon": 9.19156,
+  "lageText": "Insel Mainau",
+  "ort": "Park, Insel Mainau",
+  "land": "DE",
+  "regionen": [
+   "sueddeutschland"
+  ],
+  "platzEuropa": 1,
+  "alter": 70,
+  "spanne": null,
+  "messjahr": "2022",
+  "url": "https://www.monumentaltrees.com/de/deu/badenwurttemberg/konstanz/2924_park/56665/",
+  "schutz": "Botanischer Garten oder Arboretum"
+ },
+ {
+  "id": "mt-19903-tilia-flaccida-1",
+  "name": "T. × flaccida in Potsdam",
+  "wiss": "Tilia × flaccida",
+  "artName": "T. × flaccida",
+  "lat": 52.3946,
+  "lon": 13.06415,
+  "lageText": "Freundschaftsinsel, Potsdam",
+  "ort": "Freundschaftsinsel, Potsdam",
+  "land": "DE",
+  "regionen": [
+   "berlin"
+  ],
+  "platzEuropa": 1,
+  "alter": 69,
+  "spanne": null,
+  "messjahr": "2018",
+  "url": "https://www.monumentaltrees.com/de/deu/brandenburg/potsdam/6213_freundschaftsinsel/19903/"
+ },
+ {
+  "id": "mt-8790-cornus-glabrata-1",
+  "name": "Braune Hartriegel in Bonn",
+  "wiss": "Cornus glabrata",
+  "artName": "Braune Hartriegel",
+  "lat": 50.7246,
+  "lon": 7.09278,
+  "lageText": "Botanischer Garten Bonn, Bonn",
+  "ort": "Botanischer Garten Bonn, Bonn",
+  "land": "DE",
+  "regionen": [
+   "koeln"
+  ],
+  "platzEuropa": 1,
+  "alter": 68,
+  "spanne": 10,
+  "messjahr": "2012",
+  "url": "https://www.monumentaltrees.com/de/deu/nordrheinwestfalen/bonn/2891_botanischergartenbonn/8790/",
+  "schutz": "Botanischer Garten oder Arboretum"
+ },
+ {
+  "id": "mt-8814-cornus-sanguinea-1",
+  "name": "Roter Hartriegel in Bonn",
+  "wiss": "Cornus sanguinea",
+  "artName": "Roter Hartriegel",
+  "lat": 50.7246,
+  "lon": 7.09278,
+  "lageText": "Botanischer Garten Bonn, Bonn",
+  "ort": "Botanischer Garten Bonn, Bonn",
+  "land": "DE",
+  "regionen": [
+   "koeln"
+  ],
+  "platzEuropa": 1,
+  "alter": 66,
+  "spanne": 5,
+  "messjahr": "2012",
+  "url": "https://www.monumentaltrees.com/de/deu/nordrheinwestfalen/bonn/2891_botanischergartenbonn/8814/",
+  "schutz": "Botanischer Garten oder Arboretum"
+ },
+ {
+  "id": "mt-38365-aesculus-indica-1",
+  "name": "Indische Rosskastanie in Kew",
+  "wiss": "Aesculus indica",
+  "artName": "Indische Rosskastanie",
+  "lat": 51.4833,
+  "lon": -0.29307,
+  "lageText": "Royal Botanic Gardens, Kew, London",
+  "ort": "Royal Botanic Gardens, Kew",
+  "land": "GB",
+  "regionen": [
+   "london"
+  ],
+  "platzEuropa": 1,
+  "alter": 57,
+  "spanne": null,
+  "messjahr": "2018",
+  "url": "https://www.monumentaltrees.com/de/gbr/england/cityoflondon/965_royalbotanicgardens/38365/",
+  "schutz": "Botanischer Garten oder Arboretum"
+ },
+ {
+  "id": "mt-22569-juniperus-drupacea-1",
+  "name": "Syrischer Wacholder in Montigny-le-Bretonneux",
+  "wiss": "Juniperus drupacea",
+  "artName": "Syrischer Wacholder",
+  "lat": 48.77073,
+  "lon": 2.02851,
+  "lageText": "Église St. Martin, Montigny-le-Bretonneux",
+  "ort": "Église St. Martin, Montigny-le-Bretonneux",
+  "land": "FR",
+  "regionen": [
+   "paris"
+  ],
+  "platzEuropa": 1,
+  "alter": 56,
+  "spanne": 20,
+  "messjahr": "2019",
+  "url": "https://www.monumentaltrees.com/de/fra/yvelines/montignylebretonneux/22569_glisestmartin/"
+ },
+ {
+  "id": "mt-18476-liriodendron-chinense-1",
+  "name": "Chinesischer Tulpenbaum in Freiburg im Breisgau",
+  "wiss": "Liriodendron chinense",
+  "artName": "Chinesischer Tulpenbaum",
+  "lat": 47.99609,
+  "lon": 7.8494,
+  "lageText": "Freiburg im Breisgau",
+  "ort": "Günterstäler Stadtwald, Freiburg im Breisgau",
+  "land": "DE",
+  "regionen": [
+   "sueddeutschland"
+  ],
+  "platzEuropa": 1,
+  "alter": 56,
+  "spanne": 20,
+  "messjahr": "2014",
+  "url": "https://www.monumentaltrees.com/de/deu/badenwurttemberg/freiburg/2920_gunterstalerstadtwald/18476/"
+ },
+ {
+  "id": "mt-55790-liquidambar-acalycina-1",
+  "name": "L. acalycina in Mitte",
+  "wiss": "Liquidambar acalycina",
+  "artName": "L. acalycina",
+  "lat": 52.50978,
+  "lon": 13.35726,
+  "lageText": "Tiergarten, Mitte, Berlin",
+  "ort": "Tiergarten, Mitte",
+  "land": "DE",
+  "regionen": [
+   "berlin"
+  ],
+  "platzEuropa": 1,
+  "alter": 56,
+  "spanne": null,
+  "messjahr": "2022",
+  "url": "https://www.monumentaltrees.com/de/deu/berlin/berlin/24150_tiergarten/55790/"
+ },
+ {
+  "id": "mt-12928-eucalyptus-dalrympleana-1",
+  "name": "E. dalrympleana in Kew",
+  "wiss": "Eucalyptus dalrympleana",
+  "artName": "E. dalrympleana",
+  "lat": 51.4833,
+  "lon": -0.29307,
+  "lageText": "Royal Botanic Gardens, Kew, London",
+  "ort": "Royal Botanic Gardens, Kew",
+  "land": "GB",
+  "regionen": [
+   "london"
+  ],
+  "platzEuropa": 1,
+  "alter": 54,
+  "spanne": null,
+  "messjahr": "2013",
+  "url": "https://www.monumentaltrees.com/de/gbr/england/cityoflondon/965_royalbotanicgardens/12928/",
+  "schutz": "Botanischer Garten oder Arboretum"
+ },
+ {
+  "id": "mt-54362-pinus-taeda-1",
+  "name": "Weihrauch-Kiefer in Kew",
+  "wiss": "Pinus taeda",
+  "artName": "Weihrauch-Kiefer",
+  "lat": 51.4833,
+  "lon": -0.29307,
+  "lageText": "Royal Botanic Gardens, Kew, London",
+  "ort": "Royal Botanic Gardens, Kew",
+  "land": "GB",
+  "regionen": [
+   "london"
+  ],
+  "platzEuropa": 1,
+  "alter": 52,
+  "spanne": null,
+  "messjahr": "2021",
+  "url": "https://www.monumentaltrees.com/de/gbr/england/cityoflondon/965_royalbotanicgardens/54362/",
+  "schutz": "Botanischer Garten oder Arboretum"
+ },
+ {
+  "id": "mt-54702-cupressus-cashmeriana-2",
+  "name": "Kaschmir-Zypresse in Kew",
+  "wiss": "Cupressus cashmeriana",
+  "artName": "Kaschmir-Zypresse",
+  "lat": 51.4833,
+  "lon": -0.29307,
+  "lageText": "Royal Botanic Gardens, Kew, London",
+  "ort": "Royal Botanic Gardens, Kew",
+  "land": "GB",
+  "regionen": [
+   "london"
+  ],
+  "platzEuropa": 2,
+  "alter": 9,
+  "spanne": null,
+  "messjahr": "2021",
+  "url": "https://www.monumentaltrees.com/de/gbr/england/cityoflondon/965_royalbotanicgardens/54702/",
+  "schutz": "Botanischer Garten oder Arboretum"
+ },
+ {
+  "id": "mt-30996-populus-lasiocarpa-2",
+  "name": "P. lasiocarpa in Potsdam West",
+  "wiss": "Populus lasiocarpa",
+  "artName": "P. lasiocarpa",
+  "lat": 52.39368,
+  "lon": 13.03139,
+  "lageText": "Geschwister-Scholl-Str. 24, Potsdam West",
+  "ort": "Geschwister-Scholl-Str. 24, Potsdam West",
+  "land": "DE",
+  "regionen": [
+   "berlin"
+  ],
+  "platzEuropa": 2,
+  "alter": 22,
+  "spanne": 5,
+  "messjahr": "2022",
+  "url": "https://www.monumentaltrees.com/de/deu/brandenburg/potsdam/30996_geschwisterschollstr24/"
+ },
+ {
+  "id": "mt-46003-acer-pictum-1",
+  "name": "A. pictum in Potsdam",
+  "wiss": "Acer pictum",
+  "artName": "A. pictum",
+  "lat": 52.40093,
+  "lon": 13.05914,
+  "lageText": "Potsdam",
+  "ort": "Schlosspark Sanssouci, Potsdam",
+  "land": "DE",
+  "regionen": [
+   "berlin"
+  ],
+  "platzEuropa": 1,
+  "alter": 49,
+  "spanne": null,
+  "messjahr": "2020",
+  "url": "https://www.monumentaltrees.com/de/deu/brandenburg/potsdam/5739_schlossparksanssouci/46003/"
+ },
+ {
+  "id": "mt-16686-cupressus-notabilis-1",
+  "name": "Schönauer Alice Holt-Zypresse",
+  "wiss": "Cupressus × notabilis",
+  "artName": "Alice Holt-Zypresse",
+  "lat": 47.27153,
+  "lon": 15.32602,
+  "lageText": "Frohnleiten",
+  "ort": "Siedlung Schönau, Frohnleiten",
+  "land": "AT",
+  "regionen": [
+   "oesterreich"
+  ],
+  "platzEuropa": 1,
+  "alter": 46,
+  "spanne": 5,
+  "messjahr": "2017",
+  "url": "https://www.monumentaltrees.com/de/aut/steiermark/grazumgebung/16686_siedlungschnau/"
+ },
+ {
+  "id": "mt-39003-prunus-yedoensis-1",
+  "name": "Yoshino-Kirsche in Potsdam",
+  "wiss": "Prunus × yedoensis",
+  "artName": "Yoshino-Kirsche",
+  "lat": 52.3946,
+  "lon": 13.06415,
+  "lageText": "Freundschaftsinsel, Potsdam",
+  "ort": "Freundschaftsinsel, Potsdam",
+  "land": "DE",
+  "regionen": [
+   "berlin"
+  ],
+  "platzEuropa": 1,
+  "alter": 41,
+  "spanne": 5,
+  "messjahr": "2019",
+  "url": "https://www.monumentaltrees.com/de/deu/brandenburg/potsdam/6213_freundschaftsinsel/39003/"
+ },
+ {
+  "id": "mt-32745-prunus-yedoensis-2",
+  "name": "Yoshino-Kirsche in Potsdam-Bornstädt",
+  "wiss": "Prunus × yedoensis",
+  "artName": "Yoshino-Kirsche",
+  "lat": 52.40093,
+  "lon": 13.05914,
+  "lageText": "Potsdam",
+  "ort": "Kirschallee, Potsdam-Bornstädt",
+  "land": "DE",
+  "regionen": [
+   "berlin"
+  ],
+  "platzEuropa": 2,
+  "alter": 25,
+  "spanne": null,
+  "messjahr": "2023",
+  "url": "https://www.monumentaltrees.com/de/deu/brandenburg/potsdam/32745_kirschallee/"
+ },
+ {
+  "id": "mt-33455-picea-glauca-1",
+  "name": "Weiß-Fichte in Frohnleiten",
+  "wiss": "Picea glauca",
+  "artName": "Weiß-Fichte",
+  "lat": 47.27153,
+  "lon": 15.32602,
+  "lageText": "Frohnleiten",
+  "ort": "Ortsteil Mauritzen, Frohnleiten",
+  "land": "AT",
+  "regionen": [
+   "oesterreich"
+  ],
+  "platzEuropa": 1,
+  "alter": 37,
+  "spanne": null,
+  "messjahr": "2017",
+  "url": "https://www.monumentaltrees.com/de/aut/steiermark/grazumgebung/17790_ortsteilmauritzen/33455/"
+ },
+ {
+  "id": "mt-24861-litsea-cubeba-1",
+  "name": "L. cubeba in Richmond",
+  "wiss": "Litsea cubeba",
+  "artName": "L. cubeba",
+  "lat": 51.47714,
+  "lon": -0.28557,
+  "lageText": "Kew, Richmond, London",
+  "ort": "Royal Botanic Gardens, Kew, Richmond",
+  "land": "GB",
+  "regionen": [
+   "london"
+  ],
+  "platzEuropa": 1,
+  "alter": 35,
+  "spanne": null,
+  "messjahr": "2016",
+  "url": "https://www.monumentaltrees.com/de/gbr/england/greaterlondon/4522_royalbotanicgardenskew/24861/",
+  "schutz": "Botanischer Garten oder Arboretum"
+ },
+ {
+  "id": "mt-54395-tsuga-dumosa-1",
+  "name": "Himalaya-Hemlocktanne in Kew",
+  "wiss": "Tsuga dumosa",
+  "artName": "Himalaya-Hemlocktanne",
+  "lat": 51.4833,
+  "lon": -0.29307,
+  "lageText": "Royal Botanic Gardens, Kew, London",
+  "ort": "Royal Botanic Gardens, Kew",
+  "land": "GB",
+  "regionen": [
+   "london"
+  ],
+  "platzEuropa": 1,
+  "alter": 30,
+  "spanne": null,
+  "messjahr": "2021",
+  "url": "https://www.monumentaltrees.com/de/gbr/england/cityoflondon/965_royalbotanicgardens/54395/",
+  "schutz": "Botanischer Garten oder Arboretum"
+ },
+ {
+  "id": "mt-71664-abies-arnoldiana-1",
+  "name": "A. × arnoldiana in Velbert-Langenberg",
+  "wiss": "Abies × arnoldiana",
+  "artName": "A. × arnoldiana",
+  "lat": 51.34811,
+  "lon": 7.12436,
+  "lageText": "Stiller Park, Velbert-Langenberg",
+  "ort": "Stiller Park, Velbert-Langenberg",
+  "land": "DE",
+  "regionen": [
+   "koeln"
+  ],
+  "platzEuropa": 1,
+  "alter": 27,
+  "spanne": null,
+  "messjahr": "2025",
+  "url": "https://www.monumentaltrees.com/de/deu/nordrheinwestfalen/mettmann/38165_stillerpark/71664/"
+ },
+ {
+  "id": "mt-12508-pyrus-calleryana-1",
+  "name": "P. calleryana in Potsdam",
+  "wiss": "Pyrus calleryana",
+  "artName": "P. calleryana",
+  "lat": 52.41888,
+  "lon": 13.05037,
+  "lageText": "Volkspark, Potsdam",
+  "ort": "Volkspark, Potsdam",
+  "land": "DE",
+  "regionen": [
+   "berlin"
+  ],
+  "platzEuropa": 1,
+  "alter": 26,
+  "spanne": null,
+  "messjahr": "2020",
+  "url": "https://www.monumentaltrees.com/de/deu/brandenburg/potsdam/6333_volkspark/12508/"
+ },
+ {
+  "id": "mt-2272-wollemia-nobilis-1",
+  "name": "Wollemie in Paris",
+  "wiss": "Wollemia nobilis",
+  "artName": "Wollemie",
+  "lat": 48.84313,
+  "lon": 2.36284,
+  "lageText": "Galeries de Paléontologie et d'Anatomie Comparée, Paris, Paris",
+  "ort": "Galeries de Paléontologie et d'Anatomie Comparée, Paris",
+  "land": "FR",
+  "regionen": [
+   "paris"
+  ],
+  "platzEuropa": 1,
+  "alter": 22,
+  "spanne": 10,
+  "messjahr": "2011",
+  "url": "https://www.monumentaltrees.com/de/fra/paris/paris/2272_galeriesdepaleontologieetdanatomiecomparee/"
+ },
+ {
+  "id": "mt-4217-wollemia-nobilis-2",
+  "name": "Wollemie in Kew",
+  "wiss": "Wollemia nobilis",
+  "artName": "Wollemie",
+  "lat": 51.4833,
+  "lon": -0.29307,
+  "lageText": "Royal Botanic Gardens, Kew, London",
+  "ort": "Royal Botanic Gardens, Kew",
+  "land": "GB",
+  "regionen": [
+   "london"
+  ],
+  "platzEuropa": 2,
+  "alter": 21,
+  "spanne": null,
+  "messjahr": "2011",
+  "url": "https://www.monumentaltrees.com/de/gbr/england/cityoflondon/965_royalbotanicgardens/4217/",
+  "schutz": "Botanischer Garten oder Arboretum"
+ }
+]

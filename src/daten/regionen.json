@@ -1,0 +1,12 @@
+[
+  { "id": "sueddeutschland", "name": "Süddeutschland", "lat": 48.75, "lon": 10.4, "zoom": 6.6 },
+  { "id": "oesterreich", "name": "Österreich", "lat": 47.6, "lon": 13.9, "zoom": 6.6 },
+  { "id": "wien", "name": "Wien", "lat": 48.208, "lon": 16.373, "zoom": 9.5, "umkreisKm": 50 },
+  { "id": "london", "name": "London", "lat": 51.507, "lon": -0.128, "zoom": 8.6, "umkreisKm": 50 },
+  { "id": "paris", "name": "Paris", "lat": 48.857, "lon": 2.352, "zoom": 8.6, "umkreisKm": 50 },
+  { "id": "berlin", "name": "Berlin", "lat": 52.52, "lon": 13.405, "zoom": 8.6, "umkreisKm": 50 },
+  { "id": "koeln", "name": "Köln", "lat": 50.938, "lon": 6.96, "zoom": 8.6, "umkreisKm": 50 },
+  { "id": "prag", "name": "Prag", "lat": 50.075, "lon": 14.437, "zoom": 8.6, "umkreisKm": 50 },
+  { "id": "manchester", "name": "Manchester", "lat": 53.481, "lon": -2.243, "zoom": 8.6, "umkreisKm": 50 },
+  { "id": "budapest", "name": "Budapest", "lat": 47.498, "lon": 19.04, "zoom": 8.6, "umkreisKm": 50 }
+]

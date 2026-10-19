@@ -17,7 +17,8 @@ export function moosburgStufe(zone: number): Stufe {
   return "nein";
 }
 
-const RANG: Record<Erfolg, number> = { leicht: 3, mittel: 2, schwer: 1, kaum: 0 };
+// "offen" zwischen mittel und schwer: genannt, aber nicht bewertet
+const RANG: Record<Erfolg, number> = { leicht: 3, mittel: 2, offen: 1.5, schwer: 1, kaum: 0 };
 
 export interface Option {
   id: ArtMethode["methode"];
@@ -42,6 +43,7 @@ function stufe(o: Option): number {
 }
 
 export function optionen(baum: Baum, monat: number, reisetage: number): Option[] {
+  if (!baum.art) return [];
   return ARTEN[baum.art].methoden
     .map((am) => {
       const methode = METHODEN[am.methode];
@@ -93,10 +95,12 @@ export function naechstes(
   return null;
 }
 
-export function entfernungKm(lat: number, lon: number): number {
+export function entfernungVon(von: { lat: number; lon: number }, lat: number, lon: number): number {
   const r = Math.PI / 180;
   const a =
-    Math.sin(((lat - MOOSBURG.lat) * r) / 2) ** 2 +
-    Math.cos(MOOSBURG.lat * r) * Math.cos(lat * r) * Math.sin(((lon - MOOSBURG.lon) * r) / 2) ** 2;
+    Math.sin(((lat - von.lat) * r) / 2) ** 2 +
+    Math.cos(von.lat * r) * Math.cos(lat * r) * Math.sin(((lon - von.lon) * r) / 2) ** 2;
   return 2 * 6371 * Math.asin(Math.sqrt(a));
 }
+
+export const entfernungKm = (lat: number, lon: number) => entfernungVon(MOOSBURG, lat, lon);

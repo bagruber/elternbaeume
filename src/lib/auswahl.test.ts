@@ -51,6 +51,23 @@ describe("zustand", () => {
   });
 });
 
+describe("Rekorde aus Monumental Trees", () => {
+  it("bieten ohne Vermehrungsdaten keine Methode an", () => {
+    const ohne = BAEUME.find((b) => b.art === null);
+    expect(ohne).toBeDefined();
+    expect(optionen(ohne!, 10, 3)).toEqual([]);
+  });
+
+  it("zaehlen eine Methode mit Erfolg offen als moeglich", () => {
+    // Metasequoia: Steckholz Sept bis Nov laut PFAF, Erfolg belegt; Samen offen
+    const b = BAEUME.find((x) => x.wiss === "Metasequoia glyptostroboides")!;
+    expect(zustand(b, 10, 3)).toBe("klon");
+    const samen = optionen(b, 10, 3).find((o) => o.id === "samen_trocken");
+    expect(samen?.am.erfolg).toBe("offen");
+    expect(samen?.moeglich).toBe(true);
+  });
+});
+
 describe("naechstes", () => {
   it("findet das naechste Fenster und springt dabei ueber den Jahreswechsel", () => {
     // Eibe im Maerz: halbreif erst im Juli

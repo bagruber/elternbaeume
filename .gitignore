@@ -3,3 +3,6 @@ dist/
 *.tsbuildinfo
 .DS_Store
 __pycache__/
+
+# Gespeicherte Fremdseiten (Monumental Trees), nur lokal auswerten
+quellen/

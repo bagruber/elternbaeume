@@ -38,7 +38,7 @@ export const GEWISSHEIT_TEXT: Record<Gewissheit, string> = {
   unbekannt: "unbekannt",
 };
 
-export const ERFOLG_BALKEN: Record<Erfolg, number> = { leicht: 3, mittel: 2, schwer: 1, kaum: 0 };
+export const ERFOLG_BALKEN: Record<Erfolg, number> = { leicht: 3, mittel: 2, schwer: 1, kaum: 0, offen: 0 };
 
 export const KATEGORIE_TEXT = {
   europa: "Rekord in Europa",

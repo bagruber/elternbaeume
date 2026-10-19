@@ -52,6 +52,16 @@ export function ringSvg(jahr: Zustand[], monat: number, stufe: Stufe, px = 34): 
   return `<svg width="${px}" height="${px}" viewBox="0 0 40 40" aria-hidden="true"><circle cx="${C}" cy="${C}" r="17.8" fill="var(--color-flaeche)"/>${teile.join("")}${mitte(stufe)}</svg>`;
 }
 
+/** Baum, zu dessen Art es noch keine Vermehrungsdaten gibt: kein Jahresring,
+ *  keine Winterhaerte, nur ein gestrichelter Kreis. */
+export function grauSvg(px = 34): string {
+  return `<svg width="${px}" height="${px}" viewBox="0 0 40 40" aria-hidden="true"><circle cx="${C}" cy="${C}" r="15" fill="var(--color-flaeche)"/><circle cx="${C}" cy="${C}" r="13" fill="none" stroke="var(--color-linie-stark)" stroke-width="2" stroke-dasharray="4 3"/><circle cx="${C}" cy="${C}" r="3.5" fill="var(--color-linie-stark)"/></svg>`;
+}
+
+export function zeichenSvg(jahr: Zustand[] | null, monat: number, stufe: Stufe | null, px = 34): string {
+  return jahr && stufe ? ringSvg(jahr, monat, stufe, px) : grauSvg(px);
+}
+
 /** Sammelzeichen fuer mehrere Baeume, die im Massstab aufeinanderfallen. */
 export function sammelSvg(anzahl: number, klon: number, samen: number, px = 38): string {
   const rand = klon > 0 ? FARBE.klon : samen > 0 ? FARBE.samen : "var(--color-linie-stark)";

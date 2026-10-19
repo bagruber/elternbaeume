@@ -1,5 +1,5 @@
 import { X } from "@phosphor-icons/react";
-import { mitte, ringSvg } from "@/lib/zeichen";
+import { grauSvg, mitte, ringSvg } from "@/lib/zeichen";
 import type { Zustand } from "@/lib/auswahl";
 
 // Ein Beispielbaum fuer die Erklaerung: im Fruehsommer Klon, im Herbst Samen.
@@ -50,6 +50,10 @@ export function Zeichenerklaerung({ monat, onSchliessen }: { monat: number; onSc
         <dd>Nur mit Winterschutz</dd>
         <dt><Punkt stufe="nein" /></dt>
         <dd>Nicht winterhart, nur im Kübel</dd>
+        <dt>
+          <span aria-hidden="true" dangerouslySetInnerHTML={{ __html: grauSvg(20) }} />
+        </dt>
+        <dd>Art noch ohne Vermehrungsdaten</dd>
       </dl>
     </div>
   );

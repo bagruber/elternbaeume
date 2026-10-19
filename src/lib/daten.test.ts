@@ -1,12 +1,13 @@
 import { describe, expect, it } from "vitest";
-import { ARTEN, BAEUME, METHODEN } from "./daten";
+import { ARTEN, BAEUME, METHODEN, REGIONEN } from "./daten";
+import { entfernungVon } from "./auswahl";
 
 // Die Daten werden von Hand gepflegt. Diese Pruefung faengt Tippfehler in
 // Schluesseln ab, bevor sie als leere Etikette auf der Karte landen.
 
 const KATEGORIEN = ["europa", "land", "stadt", "selten", "historisch"];
 const GEWISSHEIT = ["belegt", "geschaetzt", "ueberliefert", "unbekannt"];
-const ERFOLG = ["leicht", "mittel", "schwer", "kaum"];
+const ERFOLG = ["leicht", "mittel", "schwer", "kaum", "offen"];
 const monatOk = (m: number) => Number.isInteger(m) && m >= 1 && m <= 12;
 
 describe("Methoden", () => {
@@ -40,7 +41,9 @@ describe("Baeume", () => {
   });
 
   it.each(BAEUME.map((b) => [b.id, b] as const))("%s ist gueltig", (_, b) => {
-    expect(ARTEN[b.art], b.art).toBeDefined();
+    if (b.art) expect(ARTEN[b.art], b.art).toBeDefined();
+    expect(b.wiss.length).toBeGreaterThan(0);
+    for (const r of b.regionen) expect(REGIONEN.map((x) => x.id), r).toContain(r);
     expect(b.lat).toBeGreaterThan(34);
     expect(b.lat).toBeLessThan(72);
     expect(b.lon).toBeGreaterThan(-25);
@@ -50,4 +53,18 @@ describe("Baeume", () => {
     expect(b.quellen.length).toBeGreaterThan(0);
     expect(b.land).toMatch(/^[A-Z]{2}$/);
   });
+});
+
+describe("Regionen", () => {
+  // Im Umkreis einer Stadt heisst: der Stadt zugeordnet, und umgekehrt.
+  // Faengt Baeume, die von Hand eingetragen und dabei vergessen wurden.
+  it.each(REGIONEN.filter((r) => r.umkreisKm).map((r) => [r.name, r] as const))(
+    "%s passt zum Umkreis",
+    (_, r) => {
+      for (const b of BAEUME) {
+        const drin = entfernungVon(r, b.lat, b.lon) <= r.umkreisKm!;
+        expect(b.regionen.includes(r.id), `${b.id} (${Math.round(entfernungVon(r, b.lat, b.lon))} km)`).toBe(drin);
+      }
+    },
+  );
 });

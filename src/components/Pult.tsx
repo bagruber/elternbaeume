@@ -7,7 +7,7 @@ interface Props {
   tage: number;
   /** Am Handy bei offenem Blatt: eine Zeile, damit Karte und Blatt Platz haben */
   kompakt: boolean;
-  imAusschnitt: { gesamt: number; klon: number; samen: number };
+  imAusschnitt: { gesamt: number; klon: number; samen: number; ohneDaten: number };
   onMonat: (m: number) => void;
   onTage: (t: number) => void;
   onZeichen: () => void;
@@ -20,7 +20,7 @@ function Feld({ farbe }: { farbe: string }) {
 export function Pult({ monat, heute, tage, kompakt, imAusschnitt, onMonat, onTage, onZeichen }: Props) {
   const [auf, setAuf] = useState(false);
   const stufe = Math.max(0, TAGE_STUFEN.indexOf(tage));
-  const nichts = imAusschnitt.gesamt - imAusschnitt.klon - imAusschnitt.samen;
+  const nichts = imAusschnitt.gesamt - imAusschnitt.klon - imAusschnitt.samen - imAusschnitt.ohneDaten;
 
   if (kompakt && !auf) {
     return (
@@ -128,6 +128,11 @@ export function Pult({ monat, heute, tage, kompakt, imAusschnitt, onMonat, onTag
           <span className="flex items-center gap-1" aria-label={`${nichts} nichts`}>
             <Feld farbe="var(--color-leer)" /> {nichts}
           </span>
+          {imAusschnitt.ohneDaten > 0 && (
+            <span className="flex items-center gap-1" aria-label={`${imAusschnitt.ohneDaten} ohne Vermehrungsdaten`}>
+              <span className="inline-block h-2.5 w-2.5 rounded-full border border-dashed border-linie-stark" /> {imAusschnitt.ohneDaten}
+            </span>
+          )}
         </p>
         <button
           type="button"

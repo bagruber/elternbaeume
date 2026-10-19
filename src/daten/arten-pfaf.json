@@ -1,0 +1,1124 @@
+{
+ "abies-cephalonica": {
+  "name": "Griechische Tanne",
+  "wiss": "Abies cephalonica",
+  "zone": 5,
+  "zoneHerkunft": "PFAF: USDA 4–8, UK-Zone 5",
+  "methoden": [
+   {
+    "methode": "samen_trocken",
+    "monate": [
+     10
+    ],
+    "erfolg": "offen"
+   }
+  ],
+  "quelle": "https://pfaf.org/user/Plant.aspx?LatinName=Abies+cephalonica"
+ },
+ "abies-homolepis": {
+  "name": "Nikko-Tanne",
+  "wiss": "Abies homolepis",
+  "zone": 4,
+  "zoneHerkunft": "PFAF: USDA 4–7, UK-Zone 4",
+  "methoden": [
+   {
+    "methode": "samen_trocken",
+    "monate": [
+     10
+    ],
+    "erfolg": "offen"
+   }
+  ],
+  "quelle": "https://pfaf.org/user/Plant.aspx?LatinName=Abies+homolepis"
+ },
+ "abies-nordmanniana": {
+  "name": "Nordmann-Tanne",
+  "wiss": "Abies nordmanniana",
+  "zone": 4,
+  "zoneHerkunft": "PFAF: USDA 4–6, UK-Zone 4",
+  "methoden": [
+   {
+    "methode": "samen_trocken",
+    "monate": [
+     10
+    ],
+    "erfolg": "offen"
+   }
+  ],
+  "quelle": "https://pfaf.org/user/Plant.aspx?LatinName=Abies+nordmanniana"
+ },
+ "acer-palmatum": {
+  "name": "Fächer-Ahorn",
+  "wiss": "Acer palmatum",
+  "zone": 6,
+  "zoneHerkunft": "PFAF: USDA 6–8, UK-Zone 5",
+  "methoden": [
+   {
+    "methode": "samen_trocken",
+    "monate": [
+     9,
+     10
+    ],
+    "hinweis": "Reifezeit bei PFAF nicht angegeben, Herbst angenommen.",
+    "erfolg": "offen"
+   },
+   {
+    "methode": "gruensteckling",
+    "monate": [
+     6,
+     7
+    ],
+    "erfolg": "offen"
+   }
+  ],
+  "quelle": "https://pfaf.org/user/Plant.aspx?LatinName=Acer+palmatum"
+ },
+ "aesculus-glabra": {
+  "name": "Ohio-Rosskastanie",
+  "wiss": "Aesculus glabra",
+  "zone": 5,
+  "zoneHerkunft": "PFAF: USDA 4–7, UK-Zone 5",
+  "methoden": [
+   {
+    "methode": "samen_trocken",
+    "monate": [
+     10
+    ],
+    "erfolg": "offen"
+   }
+  ],
+  "quelle": "https://pfaf.org/user/Plant.aspx?LatinName=Aesculus+glabra"
+ },
+ "aesculus-indica": {
+  "name": "Indische Rosskastanie",
+  "wiss": "Aesculus indica",
+  "zone": 7,
+  "zoneHerkunft": "PFAF: USDA 6–9, UK-Zone 7",
+  "methoden": [
+   {
+    "methode": "samen_trocken",
+    "monate": [
+     10
+    ],
+    "erfolg": "offen"
+   }
+  ],
+  "quelle": "https://pfaf.org/user/Plant.aspx?LatinName=Aesculus+indica"
+ },
+ "ailanthus-altissima": {
+  "name": "Götterbaum",
+  "wiss": "Ailanthus altissima",
+  "zone": 7,
+  "zoneHerkunft": "PFAF: USDA 5–8, UK-Zone 7",
+  "methoden": [
+   {
+    "methode": "samen_trocken",
+    "monate": [
+     9,
+     10,
+     11
+    ],
+    "erfolg": "offen"
+   },
+   {
+    "methode": "wurzelschnittling",
+    "monate": [
+     12
+    ],
+    "erfolg": "offen"
+   },
+   {
+    "methode": "schoessling",
+    "erfolg": "offen"
+   }
+  ],
+  "quelle": "https://pfaf.org/user/Plant.aspx?LatinName=Ailanthus+altissima"
+ },
+ "carya-cordiformis": {
+  "name": "Bitternuss-Hickory",
+  "wiss": "Carya cordiformis",
+  "zone": 4,
+  "zoneHerkunft": "PFAF: USDA 4–9, UK-Zone 4",
+  "methoden": [
+   {
+    "methode": "samen_trocken",
+    "monate": [
+     10
+    ],
+    "erfolg": "offen"
+   }
+  ],
+  "quelle": "https://pfaf.org/user/Plant.aspx?LatinName=Carya+cordiformis"
+ },
+ "carya-ovata": {
+  "name": "Schuppenrinden-Hickory",
+  "wiss": "Carya ovata",
+  "zone": 4,
+  "zoneHerkunft": "PFAF: USDA 4–8, UK-Zone 4",
+  "methoden": [
+   {
+    "methode": "samen_trocken",
+    "monate": [
+     10,
+     11
+    ],
+    "erfolg": "offen"
+   }
+  ],
+  "quelle": "https://pfaf.org/user/Plant.aspx?LatinName=Carya+ovata"
+ },
+ "carya-tomentosa": {
+  "name": "Spottnuss-Hickory",
+  "wiss": "Carya tomentosa",
+  "zone": 4,
+  "zoneHerkunft": "PFAF: USDA 4–9, UK-Zone 4",
+  "methoden": [
+   {
+    "methode": "samen_trocken",
+    "monate": [
+     10
+    ],
+    "erfolg": "offen"
+   }
+  ],
+  "quelle": "https://pfaf.org/user/Plant.aspx?LatinName=Carya+tomentosa"
+ },
+ "catalpa-bignonioides": {
+  "name": "Gewöhnlicher Trompetenbaum",
+  "wiss": "Catalpa bignonioides",
+  "zone": 5,
+  "zoneHerkunft": "PFAF: USDA 5–9, UK-Zone 5",
+  "methoden": [
+   {
+    "methode": "samen_trocken",
+    "monate": [
+     10,
+     11,
+     12
+    ],
+    "erfolg": "offen"
+   },
+   {
+    "methode": "gruensteckling",
+    "erfolg": "offen"
+   },
+   {
+    "methode": "wurzelschnittling",
+    "monate": [
+     12,
+     1,
+     2
+    ],
+    "erfolg": "offen"
+   }
+  ],
+  "quelle": "https://pfaf.org/user/Plant.aspx?LatinName=Catalpa+bignonioides"
+ },
+ "cercidiphyllum-japonicum": {
+  "name": "Japanische Kuchenbaum",
+  "wiss": "Cercidiphyllum japonicum",
+  "zone": 5,
+  "zoneHerkunft": "PFAF: USDA 4–8, UK-Zone 5",
+  "methoden": [
+   {
+    "methode": "samen_trocken",
+    "monate": [
+     8
+    ],
+    "erfolg": "offen"
+   }
+  ],
+  "quelle": "https://pfaf.org/user/Plant.aspx?LatinName=Cercidiphyllum+japonicum"
+ },
+ "cornus-kousa": {
+  "name": "Asiatischer Blüten-Hartriegel",
+  "wiss": "Cornus kousa",
+  "zone": 5,
+  "zoneHerkunft": "PFAF: USDA 5–8, UK-Zone 5",
+  "methoden": [
+   {
+    "methode": "samen_trocken",
+    "monate": [
+     9,
+     10
+    ],
+    "erfolg": "offen"
+   },
+   {
+    "methode": "halbreif",
+    "monate": [
+     7,
+     8
+    ],
+    "erfolg": "offen"
+   },
+   {
+    "methode": "steckholz",
+    "monate": [
+     9,
+     10,
+     11
+    ],
+    "erfolg": "leicht",
+    "erfolgBeleg": "PFAF: „High percentage.“"
+   }
+  ],
+  "quelle": "https://pfaf.org/user/Plant.aspx?LatinName=Cornus+kousa"
+ },
+ "cornus-sanguinea": {
+  "name": "Roter Hartriegel",
+  "wiss": "Cornus sanguinea",
+  "zone": 5,
+  "zoneHerkunft": "PFAF: USDA 4–8, UK-Zone 5",
+  "methoden": [
+   {
+    "methode": "samen_trocken",
+    "monate": [
+     9
+    ],
+    "erfolg": "offen"
+   },
+   {
+    "methode": "halbreif",
+    "monate": [
+     7,
+     8
+    ],
+    "erfolg": "offen"
+   },
+   {
+    "methode": "steckholz",
+    "monate": [
+     9,
+     10,
+     11
+    ],
+    "erfolg": "leicht",
+    "erfolgBeleg": "PFAF: „High percentage.“"
+   }
+  ],
+  "quelle": "https://pfaf.org/user/Plant.aspx?LatinName=Cornus+sanguinea"
+ },
+ "corylus-colurna": {
+  "name": "Baum-Hasel",
+  "wiss": "Corylus colurna",
+  "zone": 5,
+  "zoneHerkunft": "PFAF: USDA 4–7, UK-Zone 5",
+  "methoden": [
+   {
+    "methode": "samen_trocken",
+    "monate": [
+     9,
+     10
+    ],
+    "erfolg": "offen"
+   }
+  ],
+  "quelle": "https://pfaf.org/user/Plant.aspx?LatinName=Corylus+colurna"
+ },
+ "crataegus-monogyna": {
+  "name": "Eingriffeliger Weißdorn",
+  "wiss": "Crataegus monogyna",
+  "zone": 5,
+  "zoneHerkunft": "PFAF: USDA 4–8, UK-Zone 5",
+  "methoden": [
+   {
+    "methode": "samen_trocken",
+    "monate": [
+     9,
+     10,
+     11
+    ],
+    "erfolg": "offen"
+   }
+  ],
+  "quelle": "https://pfaf.org/user/Plant.aspx?LatinName=Crataegus+monogyna"
+ },
+ "cunninghamia-lanceolata": {
+  "name": "Spießtanne",
+  "wiss": "Cunninghamia lanceolata",
+  "zone": 7,
+  "zoneHerkunft": "PFAF: USDA 6–9, UK-Zone 7",
+  "methoden": [
+   {
+    "methode": "samen_trocken",
+    "monate": [
+     8,
+     9
+    ],
+    "erfolg": "offen"
+   },
+   {
+    "methode": "wurzelschnittling",
+    "erfolg": "offen"
+   }
+  ],
+  "quelle": "https://pfaf.org/user/Plant.aspx?LatinName=Cunninghamia+lanceolata"
+ },
+ "gleditsia-triacanthos": {
+  "name": "Amerikanische Gleditschie",
+  "wiss": "Gleditsia triacanthos",
+  "zone": 4,
+  "zoneHerkunft": "PFAF: USDA 4–8, UK-Zone 3",
+  "methoden": [
+   {
+    "methode": "samen_trocken",
+    "monate": [
+     10,
+     11
+    ],
+    "erfolg": "offen"
+   }
+  ],
+  "quelle": "https://pfaf.org/user/Plant.aspx?LatinName=Gleditsia+triacanthos"
+ },
+ "juniperus-drupacea": {
+  "name": "Syrischer Wacholder",
+  "wiss": "Juniperus drupacea",
+  "zone": 7,
+  "zoneHerkunft": "PFAF: USDA 6–9, UK-Zone 7",
+  "methoden": [
+   {
+    "methode": "samen_trocken",
+    "monate": [
+     10
+    ],
+    "erfolg": "offen"
+   },
+   {
+    "methode": "steckholz",
+    "monate": [
+     9,
+     10
+    ],
+    "erfolg": "offen"
+   }
+  ],
+  "quelle": "https://pfaf.org/user/Plant.aspx?LatinName=Juniperus+drupacea"
+ },
+ "liriodendron-tulipifera": {
+  "name": "Tulpenbaum",
+  "wiss": "Liriodendron tulipifera",
+  "zone": 4,
+  "zoneHerkunft": "PFAF: USDA 4–9, UK-Zone 4",
+  "methoden": [
+   {
+    "methode": "samen_trocken",
+    "monate": [
+     10
+    ],
+    "erfolg": "offen"
+   }
+  ],
+  "quelle": "https://pfaf.org/user/Plant.aspx?LatinName=Liriodendron+tulipifera"
+ },
+ "litsea-cubeba": {
+  "name": "L. cubeba",
+  "wiss": "Litsea cubeba",
+  "zone": 10,
+  "zoneHerkunft": "PFAF: USDA 10–12",
+  "methoden": [
+   {
+    "methode": "samen_trocken",
+    "monate": [
+     8,
+     9
+    ],
+    "erfolg": "offen"
+   }
+  ],
+  "quelle": "https://pfaf.org/user/Plant.aspx?LatinName=Litsea+cubeba"
+ },
+ "magnolia-denudata": {
+  "name": "M. denudata",
+  "wiss": "Magnolia denudata",
+  "zone": 6,
+  "zoneHerkunft": "PFAF: USDA 5–9, UK-Zone 6",
+  "methoden": [
+   {
+    "methode": "samen_trocken",
+    "monate": [
+     9,
+     10,
+     11
+    ],
+    "erfolg": "offen"
+   }
+  ],
+  "quelle": "https://pfaf.org/user/Plant.aspx?LatinName=Magnolia+denudata"
+ },
+ "malus-domestica": {
+  "name": "Apfelbaum",
+  "wiss": "Malus domestica",
+  "zone": 3,
+  "zoneHerkunft": "PFAF: USDA 3–8, UK-Zone 3",
+  "methoden": [
+   {
+    "methode": "samen_trocken",
+    "monate": [
+     9,
+     10
+    ],
+    "hinweis": "Reifezeit bei PFAF nicht angegeben, Herbst angenommen.",
+    "erfolg": "offen"
+   },
+   {
+    "methode": "steckholz",
+    "monate": [
+     11
+    ],
+    "erfolg": "offen"
+   }
+  ],
+  "quelle": "https://pfaf.org/user/Plant.aspx?LatinName=Malus+domestica"
+ },
+ "metasequoia-glyptostroboides": {
+  "name": "Urweltmammutbaum",
+  "wiss": "Metasequoia glyptostroboides",
+  "zone": 5,
+  "zoneHerkunft": "PFAF: USDA 5–8, UK-Zone 5",
+  "methoden": [
+   {
+    "methode": "samen_trocken",
+    "monate": [
+     10,
+     11
+    ],
+    "erfolg": "offen"
+   },
+   {
+    "methode": "halbreif",
+    "monate": [
+     7,
+     8
+    ],
+    "erfolg": "offen"
+   },
+   {
+    "methode": "steckholz",
+    "monate": [
+     9,
+     10,
+     11
+    ],
+    "erfolg": "leicht",
+    "erfolgBeleg": "PFAF: „Very easy.“"
+   }
+  ],
+  "quelle": "https://pfaf.org/user/Plant.aspx?LatinName=Metasequoia+glyptostroboides"
+ },
+ "picea-abies": {
+  "name": "Gemeine Fichte",
+  "wiss": "Picea abies",
+  "zone": 4,
+  "zoneHerkunft": "PFAF: USDA 2–7, UK-Zone 4",
+  "methoden": [
+   {
+    "methode": "samen_feucht",
+    "monate": [
+     10,
+     11
+    ],
+    "erfolg": "offen"
+   },
+   {
+    "methode": "halbreif",
+    "monate": [
+     8
+    ],
+    "erfolg": "offen"
+   },
+   {
+    "methode": "steckholz",
+    "monate": [
+     9,
+     10
+    ],
+    "erfolg": "offen"
+   }
+  ],
+  "quelle": "https://pfaf.org/user/Plant.aspx?LatinName=Picea+abies"
+ },
+ "picea-breweriana": {
+  "name": "Siskiyou-Fichte",
+  "wiss": "Picea breweriana",
+  "zone": 6,
+  "zoneHerkunft": "PFAF: USDA 5–9, UK-Zone 6",
+  "methoden": [
+   {
+    "methode": "samen_feucht",
+    "monate": [
+     10,
+     11
+    ],
+    "erfolg": "offen"
+   },
+   {
+    "methode": "halbreif",
+    "monate": [
+     8
+    ],
+    "erfolg": "offen"
+   },
+   {
+    "methode": "steckholz",
+    "monate": [
+     9,
+     10
+    ],
+    "erfolg": "offen"
+   }
+  ],
+  "quelle": "https://pfaf.org/user/Plant.aspx?LatinName=Picea+breweriana"
+ },
+ "picea-glauca": {
+  "name": "Weiß-Fichte",
+  "wiss": "Picea glauca",
+  "zone": 2,
+  "zoneHerkunft": "PFAF: USDA 2–6, UK-Zone 2",
+  "methoden": [
+   {
+    "methode": "samen_feucht",
+    "monate": [
+     9
+    ],
+    "erfolg": "offen"
+   },
+   {
+    "methode": "halbreif",
+    "monate": [
+     8
+    ],
+    "erfolg": "offen"
+   },
+   {
+    "methode": "steckholz",
+    "monate": [
+     9,
+     10
+    ],
+    "erfolg": "offen"
+   }
+  ],
+  "quelle": "https://pfaf.org/user/Plant.aspx?LatinName=Picea+glauca"
+ },
+ "pinus-aristata": {
+  "name": "Grannen-Kiefer",
+  "wiss": "Pinus aristata",
+  "zone": 3,
+  "zoneHerkunft": "PFAF: USDA 3–10, UK-Zone 3",
+  "methoden": [
+   {
+    "methode": "samen_trocken",
+    "monate": [
+     10
+    ],
+    "erfolg": "offen"
+   }
+  ],
+  "quelle": "https://pfaf.org/user/Plant.aspx?LatinName=Pinus+aristata"
+ },
+ "pinus-bungeana": {
+  "name": "Bunges Kiefer",
+  "wiss": "Pinus bungeana",
+  "zone": 5,
+  "zoneHerkunft": "PFAF: USDA 4–7, UK-Zone 5",
+  "methoden": [
+   {
+    "methode": "samen_trocken",
+    "monate": [
+     10
+    ],
+    "erfolg": "offen"
+   }
+  ],
+  "quelle": "https://pfaf.org/user/Plant.aspx?LatinName=Pinus+bungeana"
+ },
+ "pinus-coulteri": {
+  "name": "Coulter-Kiefer",
+  "wiss": "Pinus coulteri",
+  "zone": 8,
+  "zoneHerkunft": "PFAF: USDA 8–10, UK-Zone 8",
+  "methoden": [
+   {
+    "methode": "samen_trocken",
+    "monate": [
+     1,
+     2
+    ],
+    "erfolg": "offen"
+   }
+  ],
+  "quelle": "https://pfaf.org/user/Plant.aspx?LatinName=Pinus+coulteri"
+ },
+ "pinus-nigra": {
+  "name": "Schwarzkiefer",
+  "wiss": "Pinus nigra",
+  "zone": 6,
+  "zoneHerkunft": "PFAF: USDA 3–7, UK-Zone 6",
+  "methoden": [
+   {
+    "methode": "samen_trocken",
+    "monate": [
+     10
+    ],
+    "erfolg": "offen"
+   }
+  ],
+  "quelle": "https://pfaf.org/user/Plant.aspx?LatinName=Pinus+nigra"
+ },
+ "pinus-taeda": {
+  "name": "Weihrauch-Kiefer",
+  "wiss": "Pinus taeda",
+  "zone": 7,
+  "zoneHerkunft": "PFAF: USDA 6–9, UK-Zone 7",
+  "methoden": [
+   {
+    "methode": "samen_trocken",
+    "monate": [
+     10,
+     11,
+     12,
+     1,
+     2
+    ],
+    "erfolg": "offen"
+   }
+  ],
+  "quelle": "https://pfaf.org/user/Plant.aspx?LatinName=Pinus+taeda"
+ },
+ "populus-x-canadensis": {
+  "name": "Hybrid-Schwarzpappel",
+  "wiss": "Populus × canadensis",
+  "zone": 4,
+  "zoneHerkunft": "PFAF: USDA 4–9, UK-Zone 4",
+  "methoden": [
+   {
+    "methode": "samen_trocken",
+    "monate": [
+     9,
+     10
+    ],
+    "hinweis": "Reifezeit bei PFAF nicht angegeben, Herbst angenommen.",
+    "erfolg": "offen"
+   },
+   {
+    "methode": "steckholz",
+    "monate": [
+     11,
+     12
+    ],
+    "erfolg": "leicht",
+    "erfolgBeleg": "PFAF: „Very easy.“"
+   },
+   {
+    "methode": "schoessling",
+    "erfolg": "offen"
+   }
+  ],
+  "quelle": "https://pfaf.org/user/Plant.aspx?LatinName=Populus+x+canadensis"
+ },
+ "prunus-avium": {
+  "name": "Vogel-Kirsche",
+  "wiss": "Prunus avium",
+  "zone": 3,
+  "zoneHerkunft": "PFAF: USDA 3–7, UK-Zone 3",
+  "methoden": [
+   {
+    "methode": "samen_trocken",
+    "monate": [
+     7,
+     8
+    ],
+    "erfolg": "offen"
+   },
+   {
+    "methode": "halbreif",
+    "monate": [
+     7,
+     8
+    ],
+    "erfolg": "offen"
+   },
+   {
+    "methode": "gruensteckling",
+    "monate": [
+     3,
+     4,
+     5
+    ],
+    "erfolg": "offen"
+   },
+   {
+    "methode": "schoessling",
+    "erfolg": "offen"
+   }
+  ],
+  "quelle": "https://pfaf.org/user/Plant.aspx?LatinName=Prunus+avium"
+ },
+ "prunus-cerasifera": {
+  "name": "Kirschpflaume",
+  "wiss": "Prunus cerasifera",
+  "zone": 5,
+  "zoneHerkunft": "PFAF: USDA 5–8, UK-Zone 4",
+  "methoden": [
+   {
+    "methode": "samen_trocken",
+    "monate": [
+     8,
+     9
+    ],
+    "erfolg": "offen"
+   },
+   {
+    "methode": "halbreif",
+    "monate": [
+     7,
+     8
+    ],
+    "erfolg": "offen"
+   },
+   {
+    "methode": "gruensteckling",
+    "monate": [
+     3,
+     4,
+     5
+    ],
+    "erfolg": "offen"
+   },
+   {
+    "methode": "schoessling",
+    "erfolg": "offen"
+   }
+  ],
+  "quelle": "https://pfaf.org/user/Plant.aspx?LatinName=Prunus+cerasifera"
+ },
+ "prunus-x-yedoensis": {
+  "name": "Yoshino-Kirsche",
+  "wiss": "Prunus × yedoensis",
+  "zone": 5,
+  "zoneHerkunft": "PFAF: USDA 4–8, UK-Zone 5",
+  "methoden": [
+   {
+    "methode": "samen_trocken",
+    "monate": [
+     9,
+     10
+    ],
+    "hinweis": "Reifezeit bei PFAF nicht angegeben, Herbst angenommen.",
+    "erfolg": "offen"
+   },
+   {
+    "methode": "halbreif",
+    "monate": [
+     7,
+     8
+    ],
+    "erfolg": "offen"
+   },
+   {
+    "methode": "gruensteckling",
+    "monate": [
+     3,
+     4,
+     5
+    ],
+    "erfolg": "offen"
+   }
+  ],
+  "quelle": "https://pfaf.org/user/Plant.aspx?LatinName=Prunus+x+yedoensis"
+ },
+ "pyrus-calleryana": {
+  "name": "P. calleryana",
+  "wiss": "Pyrus calleryana",
+  "zone": 5,
+  "zoneHerkunft": "PFAF: USDA 5–9, UK-Zone 5",
+  "methoden": [
+   {
+    "methode": "samen_trocken",
+    "monate": [
+     9,
+     10
+    ],
+    "erfolg": "offen"
+   }
+  ],
+  "quelle": "https://pfaf.org/user/Plant.aspx?LatinName=Pyrus+calleryana"
+ },
+ "pyrus-pyraster": {
+  "name": "Wildbirne",
+  "wiss": "Pyrus pyraster",
+  "zone": 6,
+  "zoneHerkunft": "PFAF: USDA 5–9, UK-Zone 6",
+  "methoden": [
+   {
+    "methode": "samen_trocken",
+    "monate": [
+     9
+    ],
+    "erfolg": "offen"
+   }
+  ],
+  "quelle": "https://pfaf.org/user/Plant.aspx?LatinName=Pyrus+pyraster"
+ },
+ "quercus-macrocarpa": {
+  "name": "Großfrüchtige Eiche",
+  "wiss": "Quercus macrocarpa",
+  "zone": 3,
+  "zoneHerkunft": "PFAF: USDA 3–8, UK-Zone 3",
+  "methoden": [
+   {
+    "methode": "samen_feucht",
+    "monate": [
+     10
+    ],
+    "erfolg": "offen"
+   }
+  ],
+  "quelle": "https://pfaf.org/user/Plant.aspx?LatinName=Quercus+macrocarpa"
+ },
+ "rhododendron-maximum": {
+  "name": "Riesen-Rhododendron",
+  "wiss": "Rhododendron maximum",
+  "zone": 3,
+  "zoneHerkunft": "PFAF: USDA 3–7, UK-Zone 3",
+  "methoden": [
+   {
+    "methode": "samen_trocken",
+    "monate": [
+     10
+    ],
+    "erfolg": "offen"
+   },
+   {
+    "methode": "halbreif",
+    "monate": [
+     8
+    ],
+    "erfolg": "schwer",
+    "erfolgBeleg": "PFAF: „Difficult.“"
+   }
+  ],
+  "quelle": "https://pfaf.org/user/Plant.aspx?LatinName=Rhododendron+maximum"
+ },
+ "salix-cinerea": {
+  "name": "Asch-Weide",
+  "wiss": "Salix cinerea",
+  "zone": 2,
+  "zoneHerkunft": "PFAF: USDA 2–7, UK-Zone 2",
+  "methoden": [
+   {
+    "methode": "samen_trocken",
+    "monate": [
+     5,
+     6
+    ],
+    "erfolg": "offen"
+   },
+   {
+    "methode": "steckholz",
+    "monate": [
+     11,
+     12,
+     1,
+     2
+    ],
+    "erfolg": "offen"
+   },
+   {
+    "methode": "halbreif",
+    "monate": [
+     6,
+     7,
+     8
+    ],
+    "erfolg": "offen"
+   }
+  ],
+  "quelle": "https://pfaf.org/user/Plant.aspx?LatinName=Salix+cinerea"
+ },
+ "sorbus-aria": {
+  "name": "Echte Mehlbeere",
+  "wiss": "Sorbus aria",
+  "zone": 5,
+  "zoneHerkunft": "PFAF: USDA 4–8, UK-Zone 5",
+  "methoden": [
+   {
+    "methode": "samen_trocken",
+    "monate": [
+     9,
+     10
+    ],
+    "erfolg": "offen"
+   }
+  ],
+  "quelle": "https://pfaf.org/user/Plant.aspx?LatinName=Sorbus+aria"
+ },
+ "sorbus-torminalis": {
+  "name": "Elsbeere",
+  "wiss": "Sorbus torminalis",
+  "zone": 6,
+  "zoneHerkunft": "PFAF: USDA 5–9, UK-Zone 6",
+  "methoden": [
+   {
+    "methode": "samen_trocken",
+    "monate": [
+     9,
+     10
+    ],
+    "erfolg": "offen"
+   }
+  ],
+  "quelle": "https://pfaf.org/user/Plant.aspx?LatinName=Sorbus+torminalis"
+ },
+ "tetradium-daniellii": {
+  "name": "Samthaarige Stinkesche",
+  "wiss": "Tetradium daniellii",
+  "zone": 10,
+  "zoneHerkunft": "PFAF: USDA 9–11, UK-Zone 10",
+  "methoden": [
+   {
+    "methode": "samen_trocken",
+    "monate": [
+     9,
+     10
+    ],
+    "hinweis": "Reifezeit bei PFAF nicht angegeben, Herbst angenommen.",
+    "erfolg": "offen"
+   },
+   {
+    "methode": "halbreif",
+    "monate": [
+     6,
+     7,
+     8
+    ],
+    "erfolg": "leicht",
+    "erfolgBeleg": "PFAF: „Fair to good percentage.“"
+   }
+  ],
+  "quelle": "https://pfaf.org/user/Plant.aspx?LatinName=Tetradium+daniellii"
+ },
+ "thuja-occidentalis": {
+  "name": "Abendländischer Lebensbaum",
+  "wiss": "Thuja occidentalis",
+  "zone": 3,
+  "zoneHerkunft": "PFAF: USDA 3–7, UK-Zone 2",
+  "methoden": [
+   {
+    "methode": "samen_trocken",
+    "monate": [
+     9,
+     10
+    ],
+    "erfolg": "offen"
+   },
+   {
+    "methode": "halbreif",
+    "monate": [
+     7,
+     8
+    ],
+    "erfolg": "offen"
+   },
+   {
+    "methode": "steckholz",
+    "monate": [
+     9
+    ],
+    "erfolg": "offen"
+   }
+  ],
+  "quelle": "https://pfaf.org/user/Plant.aspx?LatinName=Thuja+occidentalis"
+ },
+ "tilia-cordata": {
+  "name": "Winter-Linde",
+  "wiss": "Tilia cordata",
+  "zone": 3,
+  "zoneHerkunft": "PFAF: USDA 3–7, UK-Zone 3",
+  "methoden": [
+   {
+    "methode": "samen_trocken",
+    "monate": [
+     10
+    ],
+    "erfolg": "offen"
+   },
+   {
+    "methode": "schoessling",
+    "erfolg": "offen"
+   }
+  ],
+  "quelle": "https://pfaf.org/user/Plant.aspx?LatinName=Tilia+cordata"
+ },
+ "tilia-mongolica": {
+  "name": "Mongolische Linde",
+  "wiss": "Tilia mongolica",
+  "zone": 3,
+  "zoneHerkunft": "PFAF: USDA 3–6, UK-Zone 3",
+  "methoden": [
+   {
+    "methode": "samen_trocken",
+    "monate": [
+     9,
+     10
+    ],
+    "hinweis": "Reifezeit bei PFAF nicht angegeben, Herbst angenommen.",
+    "erfolg": "offen"
+   },
+   {
+    "methode": "schoessling",
+    "erfolg": "offen"
+   }
+  ],
+  "quelle": "https://pfaf.org/user/Plant.aspx?LatinName=Tilia+mongolica"
+ },
+ "torreya-nucifera": {
+  "name": "Japanische Nusseibe",
+  "wiss": "Torreya nucifera",
+  "zone": 7,
+  "zoneHerkunft": "PFAF: USDA 6–8, UK-Zone 7",
+  "methoden": [
+   {
+    "methode": "samen_trocken",
+    "monate": [
+     9,
+     10,
+     11
+    ],
+    "erfolg": "offen"
+   },
+   {
+    "methode": "halbreif",
+    "monate": [
+     6,
+     7,
+     8
+    ],
+    "erfolg": "offen"
+   }
+  ],
+  "quelle": "https://pfaf.org/user/Plant.aspx?LatinName=Torreya+nucifera"
+ },
+ "ulmus-pumila": {
+  "name": "Sibirische Ulme",
+  "wiss": "Ulmus pumila",
+  "zone": 4,
+  "zoneHerkunft": "PFAF: USDA 4–9, UK-Zone 3",
+  "methoden": [
+   {
+    "methode": "samen_trocken",
+    "monate": [
+     5
+    ],
+    "erfolg": "offen"
+   },
+   {
+    "methode": "schoessling",
+    "erfolg": "offen"
+   }
+  ],
+  "quelle": "https://pfaf.org/user/Plant.aspx?LatinName=Ulmus+pumila"
+ }
+}
