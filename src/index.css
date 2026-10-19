@@ -1,0 +1,147 @@
+@import "tailwindcss";
+@import "@fontsource-variable/atkinson-hyperlegible-next";
+@import "@fontsource-variable/atkinson-hyperlegible-next/wght-italic.css";
+
+/* MapLibres Stylesheet vor den eigenen Regeln, damit die Trimmung unten
+   bei gleicher Spezifitaet gewinnt. */
+@import "maplibre-gl/dist/maplibre-gl.css";
+
+@theme {
+  --font-sans: "Atkinson Hyperlegible Next Variable", system-ui, sans-serif;
+
+  /* Grund und Tinte. Hell, weil die Seite draussen bei Tageslicht am Handy
+     gelesen wird. */
+  --color-papier: #fafaf8;
+  --color-flaeche: #ffffff;
+  --color-tinte: #1d1f1c;
+  --color-tinte-weich: #575a52;
+  --color-linie: #d4d5ce;
+  --color-linie-stark: #a9aba2;
+
+  /* Zustandsfarben der Jahresringe. Nur diese drei tragen Bedeutung. */
+  --color-klon: #2b5d3f;
+  --color-samen: #a8761a;
+  --color-leer: #dcddd6;
+
+  /* Die Reise ist laenger, als das Material haelt */
+  --color-reicht-nicht: #a33a22;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  background-color: var(--color-papier);
+  color: var(--color-tinte);
+  font-family: var(--font-sans);
+  font-variant-numeric: tabular-nums;
+  -webkit-font-smoothing: antialiased;
+  overscroll-behavior: none;
+}
+
+::selection {
+  background: color-mix(in srgb, var(--color-klon) 22%, transparent);
+}
+
+:where(a, button, input, summary):focus-visible {
+  outline: 2px solid var(--color-tinte);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+a {
+  text-underline-offset: 0.2em;
+  text-decoration-thickness: 1px;
+}
+
+/* Kartenzeichen: der weisse Grund traegt den Ring auch ueber Wasser und Relief */
+.zeichen {
+  display: block;
+  padding: 4px;
+  cursor: pointer;
+  filter: drop-shadow(0 1px 1.5px rgb(29 31 28 / 0.28));
+  transition: opacity 180ms ease-out;
+}
+/* Skaliert wird das SVG, nicht der Marker: dessen transform setzt MapLibre
+   fuer die Position, eine Transition darauf liesse die Zeichen nachziehen. */
+.zeichen svg {
+  display: block;
+  transition: transform 180ms ease-out;
+}
+.zeichen.still {
+  opacity: 0.55;
+}
+.auswahl-aktiv .zeichen:not(.gewaehlt) {
+  opacity: 0.3;
+}
+.zeichen.gewaehlt {
+  z-index: 2;
+}
+.zeichen.gewaehlt svg {
+  transform: scale(1.4);
+}
+
+/* Regler fuer die Reisetage: Lineal statt Pille */
+.lineal {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 28px;
+  background: transparent;
+  cursor: pointer;
+}
+.lineal::-webkit-slider-runnable-track {
+  height: 2px;
+  background: var(--color-tinte);
+}
+.lineal::-moz-range-track {
+  height: 2px;
+  background: var(--color-tinte);
+}
+.lineal::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 10px;
+  height: 24px;
+  margin-top: -11px;
+  border: 2px solid var(--color-flaeche);
+  border-radius: 2px;
+  background: var(--color-tinte);
+  box-shadow: 0 1px 2px rgb(29 31 28 / 0.35);
+}
+.lineal::-moz-range-thumb {
+  width: 10px;
+  height: 24px;
+  border: 2px solid var(--color-flaeche);
+  border-radius: 2px;
+  background: var(--color-tinte);
+  box-shadow: 0 1px 2px rgb(29 31 28 / 0.35);
+}
+
+/* Attribution klein und ruhig, sie gehoert aber sichtbar auf die Karte */
+.maplibregl-ctrl-attrib {
+  font-family: var(--font-sans);
+  font-size: 10px;
+  background: color-mix(in srgb, var(--color-papier) 85%, transparent) !important;
+}
+
+.blatt-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-linie-stark) transparent;
+}
+
+details > summary {
+  list-style: none;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .zeichen,
+  .zeichen svg {
+    transition: none;
+  }
+}

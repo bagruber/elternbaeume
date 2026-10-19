@@ -1,0 +1,181 @@
+{
+  "cercis-siliquastrum": {
+    "name": "Judasbaum",
+    "wiss": "Cercis siliquastrum",
+    "zone": 6,
+    "zoneHerkunft": "PFAF: USDA 6–10, UK-Zone 6",
+    "methoden": [
+      { "methode": "halbreif", "monate": [7, 8], "erfolg": "schwer", "hinweis": "Im Kasten mit gespannter Luft, Bewurzelungspulver verwenden." },
+      { "methode": "samen_trocken", "monate": [9, 10, 11, 12], "erfolg": "mittel", "hinweis": "Gelagerte Samen 24 Stunden in warmem Wasser einweichen, dann 3 Monate kalt stratifizieren. Verträgt Umpflanzen schlecht, also früh an den endgültigen Platz." }
+    ],
+    "quelle": "https://pfaf.org/user/Plant.aspx?LatinName=Cercis+siliquastrum"
+  },
+  "platanus-orientalis": {
+    "name": "Morgenländische Platane",
+    "wiss": "Platanus orientalis",
+    "zone": 7,
+    "zoneHerkunft": "PFAF: USDA 6–9, UK-Zone 7",
+    "methoden": [
+      { "methode": "steckholz", "monate": [10, 11, 12], "erfolg": "leicht", "erfolgBeleg": "PFAF: „Easy“", "hinweis": "20–30 cm lange Triebe dieses Jahres mit einem Stück älterem Holz, im Herbst in den kalten Kasten." },
+      { "methode": "samen_trocken", "monate": [1, 2, 3, 4], "erfolg": "schwer", "erfolgBeleg": "PFAF: oft geringe Keimfähigkeit", "hinweis": "Die Fruchtbälle hängen bis ins Frühjahr am Baum. Spät ernten und gleich säen, zwei Monate Kälte verbessern die Keimung." }
+    ],
+    "quelle": "https://pfaf.org/user/Plant.aspx?LatinName=Platanus+orientalis"
+  },
+  "pterocarya-fraxinifolia": {
+    "name": "Kaukasische Flügelnuss",
+    "wiss": "Pterocarya fraxinifolia",
+    "zone": 7,
+    "zoneHerkunft": "PFAF: USDA 6–9, UK-Zone 7",
+    "hinweis": "Bildet reichlich Wurzelschösslinge (PFAF).",
+    "methoden": [
+      { "methode": "schoessling", "erfolg": "leicht", "hinweis": "PFAF nennt das Teilen der Schösslinge in der Ruhezeit." },
+      { "methode": "halbreif", "monate": [7, 8], "erfolg": "mittel" },
+      { "methode": "steckholz", "monate": [11], "erfolg": "mittel", "hinweis": "Nur kräftige Triebe nehmen." },
+      { "methode": "samen_trocken", "monate": [9, 10], "erfolg": "mittel", "hinweis": "Gelagerte Samen 24 Stunden einweichen, dann 2–3 Monate kalt stratifizieren." }
+    ],
+    "quelle": "https://pfaf.org/user/Plant.aspx?LatinName=Pterocarya+fraxinifolia"
+  },
+  "quercus-robur": {
+    "name": "Stieleiche",
+    "wiss": "Quercus robur",
+    "zone": 4,
+    "zoneHerkunft": "PFAF: USDA 4–8, UK-Zone 4",
+    "hinweis": "Für Stecklinge nennt PFAF keine Methode, Eichen bewurzeln praktisch nicht. Von alten Eichen bleiben deshalb nur Nachkommen.",
+    "methoden": [
+      { "methode": "samen_feucht", "monate": [9, 10, 11], "erfolg": "leicht", "hinweis": "Eicheln verlieren schnell ihre Keimkraft, wenn sie austrocknen. Tiefe Töpfe wegen der Pfahlwurzel und nach spätestens zwei Jahren auspflanzen." }
+    ],
+    "quelle": "https://pfaf.org/user/Plant.aspx?LatinName=Quercus+robur"
+  },
+  "robinia-pseudoacacia": {
+    "name": "Robinie",
+    "wiss": "Robinia pseudoacacia",
+    "zone": 4,
+    "zoneHerkunft": "PFAF: USDA 4–9, UK-Zone 3",
+    "invasiv": "PFAF führt die Art als invasiv, sie breitet sich stark über Wurzelausläufer aus.",
+    "giftig": "Alle Teile außer den Blüten, besonders die Rinde, gelten als giftig (PFAF).",
+    "methoden": [
+      { "methode": "schoessling", "erfolg": "leicht", "hinweis": "PFAF: Schösslinge in der Ruhezeit nehmen." },
+      { "methode": "wurzelschnittling", "erfolg": "leicht", "hinweis": "Bei PFAF nicht genannt, bei Robinien aber eine übliche Methode." },
+      { "methode": "samen_trocken", "monate": [9, 10, 11, 12, 1, 2], "erfolg": "leicht", "hinweis": "48 Stunden in warmem Wasser einweichen. Die Samen halten über zehn Jahre (PFAF)." }
+    ],
+    "quelle": "https://pfaf.org/user/Plant.aspx?LatinName=Robinia+pseudoacacia"
+  },
+  "styphnolobium-japonicum": {
+    "name": "Japanischer Schnurbaum",
+    "wiss": "Styphnolobium japonicum",
+    "zone": 5,
+    "zoneHerkunft": "PFAF: USDA 4–9, UK-Zone 5",
+    "methoden": [
+      { "methode": "halbreif", "monate": [7, 8], "erfolg": "schwer", "hinweis": "Junge Triebe mit einem Stück älterem Holz, im Kasten." },
+      { "methode": "samen_trocken", "monate": [10, 11, 12, 1], "erfolg": "mittel", "hinweis": "12 Stunden in heißem, nicht kochendem Wasser einweichen. Sämlinge zwei Jahre geschützt halten." }
+    ],
+    "quelle": "https://pfaf.org/user/Plant.aspx?LatinName=Styphnolobium+japonicum"
+  },
+  "cedrus-libani": {
+    "name": "Libanon-Zeder",
+    "wiss": "Cedrus libani",
+    "zone": 5,
+    "zoneHerkunft": "PFAF: USDA 5–8, UK-Zone 5",
+    "methoden": [
+      { "methode": "steckholz", "monate": [11], "erfolg": "kaum", "erfolgBeleg": "PFAF: „very difficult“", "hinweis": "Triebspitzen im November im Kasten." },
+      { "methode": "samen_trocken", "monate": [11, 12, 1, 2], "erfolg": "mittel", "hinweis": "Zapfen im Winter sammeln und warm stellen, bis sie sich öffnen, dann gleich säen. Ein Monat Kälte hilft. Sämlinge fallen leicht um, also luftig halten." }
+    ],
+    "quelle": "https://pfaf.org/user/Plant.aspx?LatinName=Cedrus+libani"
+  },
+  "pistacia-vera": {
+    "name": "Echte Pistazie",
+    "wiss": "Pistacia vera",
+    "zone": 9,
+    "zoneHerkunft": "PFAF: USDA 7–10, UK-Zone 9",
+    "hinweis": "Zweihäusig: Nur weibliche Bäume tragen Früchte.",
+    "methoden": [
+      { "methode": "halbreif", "monate": [7], "erfolg": "kaum", "hinweis": "PFAF nennt Stecklinge nur von jungen Bäumen. Von einem alten Baum ist das kaum aussichtsreich." },
+      { "methode": "samen_trocken", "monate": [9, 10], "erfolg": "mittel", "hinweis": "16 Stunden bis mehrere Tage einweichen, die Keimung ist unregelmäßig." }
+    ],
+    "quelle": "https://pfaf.org/user/Plant.aspx?LatinName=Pistacia+vera"
+  },
+  "ginkgo-biloba": {
+    "name": "Ginkgo",
+    "wiss": "Ginkgo biloba",
+    "zone": 4,
+    "zoneHerkunft": "PFAF: USDA 3–8, UK-Zone 4",
+    "hinweis": "Zweihäusig: Samen gibt es nur an weiblichen Bäumen. Das Fruchtfleisch riecht stark.",
+    "methoden": [
+      { "methode": "gruensteckling", "monate": [5, 6], "erfolg": "mittel" },
+      { "methode": "halbreif", "monate": [7, 8], "erfolg": "mittel", "hinweis": "Wächst im ersten Jahr oft kaum, danach meist gut (PFAF)." },
+      { "methode": "steckholz", "monate": [12], "erfolg": "mittel" },
+      { "methode": "samen_feucht", "monate": [10, 11], "erfolg": "mittel", "erfolgBeleg": "PFAF: Keimung „good to fair“", "hinweis": "Nicht austrocknen lassen, Fruchtfleisch mit Handschuhen entfernen." }
+    ],
+    "quelle": "https://pfaf.org/user/Plant.aspx?LatinName=Ginkgo+biloba"
+  },
+  "taxus-baccata": {
+    "name": "Eibe",
+    "wiss": "Taxus baccata",
+    "zone": 6,
+    "zoneHerkunft": "PFAF: USDA 5–7, UK-Zone 6",
+    "giftig": "Alle Teile außer dem roten Samenmantel sind stark giftig (PFAF).",
+    "hinweis": "Meist zweihäusig: Samen nur an weiblichen Bäumen.",
+    "methoden": [
+      { "methode": "halbreif", "monate": [7, 8], "erfolg": "leicht", "erfolgBeleg": "PFAF: „High percentage“", "hinweis": "5–8 cm lange Triebspitzen, schattiger Kasten. Wurzeln bis Ende September, trotzdem bis zum Frühjahr im Kasten lassen." },
+      { "methode": "steckholz", "monate": [12, 1, 2], "erfolg": "mittel", "hinweis": "Reife Triebspitzen, am besten nach starkem Frost geschnitten." },
+      { "methode": "samen_trocken", "monate": [9, 10], "erfolg": "schwer", "hinweis": "Keimt oft erst nach 18 Monaten oder später. 4 Monate warm, dann 4 Monate kalt stratifizieren kann es verkürzen." }
+    ],
+    "quelle": "https://pfaf.org/user/Plant.aspx?LatinName=Taxus+baccata"
+  },
+  "tilia-platyphyllos": {
+    "name": "Sommer-Linde",
+    "wiss": "Tilia platyphyllos",
+    "zone": 5,
+    "zoneHerkunft": "PFAF: USDA 4–6, UK-Zone 5",
+    "methoden": [
+      { "methode": "schoessling", "erfolg": "mittel", "hinweis": "Bei PFAF nur für die Winter-Linde genannt. Alte Linden treiben aber oft am Stammfuß aus. Nur Triebe mit eigenen Wurzeln nehmen." },
+      { "methode": "samen_trocken", "monate": [9, 10], "erfolg": "schwer", "hinweis": "Viele Samen sind taub, ein paar aufschneiden. Gelagerte Samen können bis zu acht Jahre zum Keimen brauchen. Am besten frisch säen, bevor die Schale hart wird." }
+    ],
+    "quelle": "https://pfaf.org/user/Plant.aspx?LatinName=Tilia+platyphyllos"
+  },
+  "tilia-x-europaea": {
+    "name": "Holländische Linde",
+    "wiss": "Tilia × europaea",
+    "zone": 3,
+    "zoneHerkunft": "PFAF: USDA 3–9, UK-Zone 3",
+    "methoden": [
+      { "methode": "schoessling", "erfolg": "mittel", "hinweis": "Bei PFAF nur für die Winter-Linde genannt. Alte Linden treiben aber oft am Stammfuß aus. Nur Triebe mit eigenen Wurzeln nehmen." },
+      { "methode": "samen_trocken", "monate": [9, 10], "erfolg": "schwer", "hinweis": "Viele Samen sind taub, und gelagerte keimen sehr langsam (PFAF)." }
+    ],
+    "quelle": "https://pfaf.org/user/Plant.aspx?LatinName=Tilia+x+europaea"
+  },
+  "tilia": {
+    "name": "Linde, Art nicht bestimmt",
+    "wiss": "Tilia sp.",
+    "zone": 5,
+    "zoneHerkunft": "vorsichtigster Wert der Linden bei PFAF (Sommer-Linde)",
+    "hinweis": "Für diesen Baum ist die Art nicht bestimmt. Die Angaben stammen von der Sommer-Linde.",
+    "methoden": [
+      { "methode": "schoessling", "erfolg": "mittel", "hinweis": "Alte Linden treiben oft am Stammfuß aus. Nur Triebe mit eigenen Wurzeln nehmen." },
+      { "methode": "samen_trocken", "monate": [9, 10], "erfolg": "schwer", "hinweis": "Viele Samen sind taub, ein paar aufschneiden." }
+    ],
+    "quelle": "https://pfaf.org/user/Plant.aspx?LatinName=Tilia+platyphyllos"
+  },
+  "castanea-sativa": {
+    "name": "Edelkastanie",
+    "wiss": "Castanea sativa",
+    "zone": 5,
+    "zoneHerkunft": "PFAF: USDA 5–7, UK-Zone 5",
+    "boden": "Meidet kalkreiche Böden (PFAF).",
+    "methoden": [
+      { "methode": "samen_feucht", "monate": [10], "erfolg": "leicht", "hinweis": "Darf nicht austrocknen. Feucht im Gemüsefach hält sie einige Monate, regelmäßig auf Keimung prüfen. Im ersten Winter etwas schützen." }
+    ],
+    "quelle": "https://pfaf.org/user/Plant.aspx?LatinName=Castanea+sativa"
+  },
+  "olea-europaea": {
+    "name": "Olivenbaum",
+    "wiss": "Olea europaea",
+    "zone": 8,
+    "zoneHerkunft": "PFAF: USDA 8–10, UK-Zone 8",
+    "methoden": [
+      { "methode": "halbreif", "monate": [7, 8], "erfolg": "leicht", "erfolgBeleg": "PFAF: „Good percentage“", "hinweis": "5–10 cm mit einem Stück älterem Holz, im Kasten." },
+      { "methode": "samen_trocken", "monate": [10, 11, 12], "erfolg": "schwer", "hinweis": "Vorher kalt stratifizieren, die ersten Winter unter Glas." }
+    ],
+    "quelle": "https://pfaf.org/user/Plant.aspx?LatinName=Olea+europaea"
+  }
+}

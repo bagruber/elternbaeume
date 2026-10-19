@@ -1,0 +1,386 @@
+[
+  {
+    "id": "judasbaum-altes-akh",
+    "name": "Judasbaum im Alten AKH",
+    "art": "cercis-siliquastrum",
+    "lat": 48.217105,
+    "lon": 16.352582,
+    "ort": "Wien, Universitätscampus Altes AKH",
+    "land": "AT",
+    "kategorien": ["stadt"],
+    "warum": "Ein mehrstämmiger Judasbaum im Hof des alten Krankenhauses. Er blüht vor dem Austrieb, auch direkt aus den Stämmen.",
+    "alter": { "text": "unbekannt, vermutlich so alt wie das Alte AKH (Spital ab 1784)", "gewissheit": "ueberliefert" },
+    "schutz": "Wiener Naturdenkmal",
+    "quellen": [
+      { "titel": "Stadt Wien, Open Data: Naturdenkmal", "url": "https://data.wien.gv.at/daten/geo?service=WFS&request=GetFeature&version=1.1.0&typeName=ogdwien:NATDENKMALPKTOGD&srsName=EPSG:4326&outputFormat=json" },
+      { "titel": "Falter: Die Mutter aller Höfe (2020)", "url": "https://www.falter.at/zeitung/20200812/die-mutter-aller-hoefe" }
+    ]
+  },
+  {
+    "id": "mozart-platane",
+    "name": "Mozart-Platane",
+    "art": "platanus-orientalis",
+    "lat": 48.195444,
+    "lon": 16.383917,
+    "ort": "Wien, Rennweg 14",
+    "land": "AT",
+    "kategorien": ["historisch", "stadt"],
+    "warum": "Laut Gedenkstein unter Nikolaus Jacquin gepflanzt, dem Direktor des Botanischen Gartens. Mozart soll auf dem Weg zum Klavierunterricht in Jacquins Haus hier vorbeigekommen sein.",
+    "alter": { "text": "um 1780, rund 230 Jahre geschätzt", "gewissheit": "geschaetzt" },
+    "schutz": "Wiener Naturdenkmal Nr. 9, seit 1936",
+    "quellen": [
+      { "titel": "Wikipedia: Mozart-Platane", "url": "https://de.wikipedia.org/wiki/Mozart-Platane" }
+    ]
+  },
+  {
+    "id": "fluegelnuss-stadtpark",
+    "name": "Flügelnuss im Stadtpark",
+    "art": "pterocarya-fraxinifolia",
+    "lat": 48.205087,
+    "lon": 16.379469,
+    "ort": "Wien, Stadtpark",
+    "land": "AT",
+    "kategorien": ["selten", "stadt"],
+    "warum": "Eine Kaukasische Flügelnuss, in Mitteleuropa selten gepflanzt und in Wien als Naturdenkmal geschützt.",
+    "alter": { "text": "unbekannt", "gewissheit": "unbekannt" },
+    "schutz": "Wiener Naturdenkmal",
+    "quellen": [
+      { "titel": "Stadt Wien, Open Data: Naturdenkmal", "url": "https://data.wien.gv.at/daten/geo?service=WFS&request=GetFeature&version=1.1.0&typeName=ogdwien:NATDENKMALPKTOGD&srsName=EPSG:4326&outputFormat=json" }
+    ]
+  },
+  {
+    "id": "eiche-bad-blumau",
+    "name": "1000-jährige Eiche Bad Blumau",
+    "art": "quercus-robur",
+    "lat": 47.105,
+    "lon": 16.04842,
+    "ort": "Bad Blumau, Steiermark",
+    "land": "AT",
+    "kategorien": ["europa", "land"],
+    "warum": "Gilt als älteste Eiche Europas. Krone rund 50 Meter breit, früher Versammlungs- und Tanzplatz.",
+    "alter": { "text": "„tausendjährig“", "gewissheit": "ueberliefert" },
+    "quellen": [
+      { "titel": "Wikipedia: 1000-jährige Eiche Bad Blumau", "url": "https://de.wikipedia.org/wiki/1000-j%C3%A4hrige_Eiche_Bad_Blumau" }
+    ]
+  },
+  {
+    "id": "robinie-viviani",
+    "name": "Robinie am Square René-Viviani",
+    "art": "robinia-pseudoacacia",
+    "lat": 48.852191,
+    "lon": 2.347287,
+    "ort": "Paris, Square René-Viviani",
+    "land": "FR",
+    "kategorien": ["stadt", "historisch"],
+    "warum": "Ältester Baum von Paris, gesät von Jean Robin, nach dem die Gattung Robinia benannt ist.",
+    "alter": { "text": "1601 gesät", "gewissheit": "belegt" },
+    "schutz": "Arbre remarquable de France",
+    "quellen": [
+      { "titel": "Wikipedia: Locust of Square René-Viviani", "url": "https://en.wikipedia.org/wiki/Locust_of_Square_Ren%C3%A9-Viviani" }
+    ]
+  },
+  {
+    "id": "robinie-jardin-des-plantes",
+    "name": "Robinie von Vespasien Robin",
+    "art": "robinia-pseudoacacia",
+    "lat": 48.842344,
+    "lon": 2.359159,
+    "ort": "Paris, Jardin des Plantes",
+    "land": "FR",
+    "kategorien": ["historisch"],
+    "warum": "Der ursprüngliche Stamm ist fort. Was hier wächst, sind Stockausschläge des Baums von 1636, also genetisch derselbe Baum.",
+    "alter": { "text": "1636 gepflanzt, heute Stockausschläge", "gewissheit": "belegt" },
+    "schutz": "Botanischer Garten",
+    "quellen": [
+      { "titel": "Jardin des Plantes: Histoires d’arbres", "url": "https://www.jardindesplantesdeparis.fr/system/files/2024-07/histoires_d_arbres.pdf" }
+    ]
+  },
+  {
+    "id": "judasbaum-jardin-des-plantes",
+    "name": "Judasbaum im Jardin des Plantes",
+    "art": "cercis-siliquastrum",
+    "lat": 48.842178,
+    "lon": 2.359106,
+    "ort": "Paris, Jardin des Plantes",
+    "land": "FR",
+    "kategorien": ["historisch"],
+    "warum": "Einer der historischen Bäume des Gartens, gleich neben der Robinie von 1636.",
+    "alter": { "text": "1785 gepflanzt", "gewissheit": "belegt" },
+    "schutz": "Botanischer Garten",
+    "quellen": [
+      { "titel": "Jardin des Plantes: Histoires d’arbres", "url": "https://www.jardindesplantesdeparis.fr/system/files/2024-07/histoires_d_arbres.pdf" }
+    ]
+  },
+  {
+    "id": "schnurbaum-incarville",
+    "name": "Schnurbaum von d’Incarville",
+    "art": "styphnolobium-japonicum",
+    "lat": 48.841873,
+    "lon": 2.357205,
+    "ort": "Paris, Jardin des Plantes",
+    "land": "FR",
+    "kategorien": ["europa", "historisch"],
+    "warum": "Ein Jesuit schickte die Samen aus China an Bernard de Jussieu, beschriftet als „unbekannter chinesischer Baum“. Gilt als ältester Schnurbaum Europas und blühte erst dreißig Jahre nach der Pflanzung.",
+    "alter": { "text": "1747 gepflanzt", "gewissheit": "belegt" },
+    "schutz": "Botanischer Garten",
+    "quellen": [
+      { "titel": "Jardin des Plantes: Histoires d’arbres", "url": "https://www.jardindesplantesdeparis.fr/system/files/2024-07/histoires_d_arbres.pdf" },
+      { "titel": "Paris Zigzag", "url": "https://www.pariszigzag.fr/?p=230030" }
+    ]
+  },
+  {
+    "id": "zeder-jussieu",
+    "name": "Zeder von Jussieu",
+    "art": "cedrus-libani",
+    "lat": 48.843525,
+    "lon": 2.356212,
+    "ort": "Paris, Jardin des Plantes, Labyrinth",
+    "land": "FR",
+    "kategorien": ["historisch"],
+    "warum": "Bernard de Jussieu pflanzte sie 1734. Der Legende nach trug er die Sämlinge aus England im Hut nach Paris, weil ihr Topf zerbrochen war.",
+    "alter": { "text": "1734 gepflanzt", "gewissheit": "belegt" },
+    "schutz": "Botanischer Garten",
+    "quellen": [
+      { "titel": "Jardin des Plantes: Histoires d’arbres", "url": "https://www.jardindesplantesdeparis.fr/system/files/2024-07/histoires_d_arbres.pdf" }
+    ]
+  },
+  {
+    "id": "platane-buffon",
+    "name": "Platane von Buffon",
+    "art": "platanus-orientalis",
+    "lat": 48.844083,
+    "lon": 2.357574,
+    "ort": "Paris, Jardin des Plantes",
+    "land": "FR",
+    "kategorien": ["historisch"],
+    "warum": "Eine von drei Platanen, die der Naturforscher Buffon als Direktor des Gartens pflanzte.",
+    "alter": { "text": "1785 gepflanzt", "gewissheit": "belegt" },
+    "schutz": "Botanischer Garten",
+    "quellen": [
+      { "titel": "Jardin des Plantes: Histoires d’arbres", "url": "https://www.jardindesplantesdeparis.fr/system/files/2024-07/histoires_d_arbres.pdf" }
+    ]
+  },
+  {
+    "id": "pistazie-vaillant",
+    "name": "Pistazie von Vaillant",
+    "art": "pistacia-vera",
+    "lat": 48.844157,
+    "lon": 2.359331,
+    "ort": "Paris, Jardin des Plantes, Alpengarten",
+    "land": "FR",
+    "kategorien": ["historisch"],
+    "warum": "Mit dem Pollen dieses männlichen Baums bestäubte Sébastien Vaillant einen weiblichen und bestätigte so, dass Pflanzen Geschlechter haben.",
+    "alter": { "text": "um 1700 gepflanzt", "gewissheit": "belegt" },
+    "schutz": "Botanischer Garten",
+    "keineSamen": "Männlicher Baum, er trägt keine Früchte.",
+    "quellen": [
+      { "titel": "Jardin des Plantes: Histoires d’arbres", "url": "https://www.jardindesplantesdeparis.fr/system/files/2024-07/histoires_d_arbres.pdf" }
+    ]
+  },
+  {
+    "id": "ginkgo-roedelheim",
+    "name": "Ginkgo in Rödelheim",
+    "art": "ginkgo-biloba",
+    "lat": 50.123967,
+    "lon": 8.614159,
+    "ort": "Frankfurt am Main, Rödelheim, am Petrihaus",
+    "land": "DE",
+    "kategorien": ["land"],
+    "warum": "Ältester Ginkgo Deutschlands, gepflanzt neben dem Haus, das später dem Bankier Georg Brentano gehörte.",
+    "alter": { "text": "um 1750 gepflanzt", "gewissheit": "geschaetzt" },
+    "schutz": "Naturdenkmal",
+    "hinweis": "Der Baum ist nur eingeschränkt öffentlich zugänglich.",
+    "quellen": [
+      { "titel": "Wikipedia: Ginkgo in Rödelheim", "url": "https://de.wikipedia.org/wiki/Ginkgo_in_R%C3%B6delheim" }
+    ]
+  },
+  {
+    "id": "eibe-balderschwang",
+    "name": "Alte Eibe von Balderschwang",
+    "art": "taxus-baccata",
+    "lat": 47.468222,
+    "lon": 10.115417,
+    "ort": "Balderschwang, Oberallgäu",
+    "land": "DE",
+    "kategorien": ["land"],
+    "warum": "Möglicherweise der älteste Baum Deutschlands. Weiblich, trägt jedes Jahr reichlich Früchte und bildet an den Stämmen zahlreiche Johannistriebe.",
+    "alter": { "text": "etwa 1100 Jahre, Spanne 900–1300 (Deutsche Dendrologische Gesellschaft)", "gewissheit": "geschaetzt" },
+    "quellen": [
+      { "titel": "Wikipedia: Alte Eibe von Balderschwang", "url": "https://de.wikipedia.org/wiki/Alte_Eibe_von_Balderschwang" },
+      { "titel": "Euronews (2026)", "url": "https://de.euronews.com/my-europe/2026/08/06/uber-1100-jahre-deutschlands-altester-baum-entdeckt" }
+    ]
+  },
+  {
+    "id": "linde-schenklengsfeld",
+    "name": "Linde in Schenklengsfeld",
+    "art": "tilia-platyphyllos",
+    "lat": 50.819167,
+    "lon": 9.844722,
+    "ort": "Schenklengsfeld, Marktplatz",
+    "land": "DE",
+    "kategorien": ["land", "historisch"],
+    "warum": "Vielleicht der älteste Baum Deutschlands. Früher Gerichtslinde, an der ein Pranger stand. Ein Balkengerüst trägt die Äste.",
+    "alter": { "text": "„tausendjährig“", "gewissheit": "ueberliefert" },
+    "quellen": [
+      { "titel": "Wikipedia: Linde in Schenklengsfeld", "url": "https://de.wikipedia.org/wiki/Linde_in_Schenklengsfeld" }
+    ]
+  },
+  {
+    "id": "femeiche",
+    "name": "Femeiche",
+    "art": "quercus-robur",
+    "lat": 51.745472,
+    "lon": 6.862047,
+    "ort": "Erle, Kreis Borken",
+    "land": "DE",
+    "kategorien": ["historisch", "land"],
+    "warum": "Unter ihr wurden bis ins 16. Jahrhundert Femegerichte gehalten. Gilt als ältester und bekanntester Gerichtsbaum Mitteleuropas. Der Stamm ist hohl und wird von Stangen gehalten.",
+    "alter": { "text": "600–850 Jahre", "gewissheit": "geschaetzt" },
+    "schutz": "Naturdenkmal",
+    "quellen": [
+      { "titel": "Wikipedia: Femeiche", "url": "https://de.wikipedia.org/wiki/Femeiche" }
+    ]
+  },
+  {
+    "id": "tassilolinde",
+    "name": "Tassilolinde",
+    "art": "tilia-platyphyllos",
+    "lat": 47.875768,
+    "lon": 11.030201,
+    "ort": "Wessobrunn, an der Klostermauer",
+    "land": "DE",
+    "kategorien": ["historisch"],
+    "warum": "Benannt nach Herzog Tassilo III., der unter ihr vom Kloster Wessobrunn geträumt haben soll. Stammumfang rund 14 Meter, Nationalerbe-Baum seit 2023.",
+    "alter": { "text": "700–900 Jahre (Deutsche Dendrologische Gesellschaft)", "gewissheit": "geschaetzt" },
+    "schutz": "Naturdenkmal",
+    "quellen": [
+      { "titel": "Wikipedia: Tassilolinde", "url": "https://de.wikipedia.org/wiki/Tassilolinde" }
+    ]
+  },
+  {
+    "id": "hohle-linde-obermarbach",
+    "name": "Hohle Linde in Obermarbach",
+    "art": "tilia",
+    "lat": 48.427312,
+    "lon": 11.482496,
+    "ort": "Obermarbach bei Petershausen, Landkreis Dachau",
+    "land": "DE",
+    "kategorien": [],
+    "warum": "Hohl, stark geneigt und am Hang von Zugwurzeln gehalten. Ein Baumführer nennt sie „europaweit einzigartig“.",
+    "alter": { "text": "300–600 Jahre, die Schätzungen gehen auseinander", "gewissheit": "geschaetzt" },
+    "schutz": "Naturdenkmal",
+    "quellen": [
+      { "titel": "Wikipedia: Hohle Linde in Obermarbach", "url": "https://de.wikipedia.org/wiki/Hohle_Linde_in_Obermarbach" }
+    ]
+  },
+  {
+    "id": "ivenacker-eichen",
+    "name": "Ivenacker Eichen",
+    "art": "quercus-robur",
+    "lat": 53.715962,
+    "lon": 12.951486,
+    "ort": "Ivenack bei Stavenhagen",
+    "land": "DE",
+    "kategorien": ["europa", "land"],
+    "warum": "Alter Hutewald mit der größten bekannten lebenden Stieleiche der Welt. Erstes Nationales Naturmonument Deutschlands.",
+    "alter": { "text": "rund 1000 Jahre gelten als möglich", "gewissheit": "geschaetzt" },
+    "schutz": "Nationales Naturmonument",
+    "quellen": [
+      { "titel": "Wikipedia: Ivenacker Eichen", "url": "https://de.wikipedia.org/wiki/Ivenacker_Eichen" }
+    ]
+  },
+  {
+    "id": "kongeegen",
+    "name": "Kongeegen",
+    "art": "quercus-robur",
+    "lat": 55.910252,
+    "lon": 11.989228,
+    "ort": "Jægerspris Nordskov, Seeland",
+    "land": "DK",
+    "kategorien": ["europa", "land"],
+    "warum": "Ältester Baum Dänemarks und vermutlich die älteste Eiche Nordeuropas. Vom Stamm sind nur noch Reste übrig.",
+    "alter": { "text": "1400–2000 Jahre", "gewissheit": "geschaetzt" },
+    "schutz": "Naturschutzgebiet",
+    "quellen": [
+      { "titel": "Wikipedia: Kongeegen", "url": "https://de.wikipedia.org/wiki/Kongeegen" }
+    ]
+  },
+  {
+    "id": "fortingall-eibe",
+    "name": "Fortingall Yew",
+    "art": "taxus-baccata",
+    "lat": 56.598194,
+    "lon": -4.050889,
+    "ort": "Fortingall, Perth and Kinross",
+    "land": "GB",
+    "kategorien": ["europa", "land"],
+    "warum": "Gilt als ältester Baum Europas. Lange als rein männlich bekannt, 2015 trug ein einzelner Ast Samen.",
+    "alter": { "text": "über 2000 Jahre, Schätzungen bis 5000", "gewissheit": "geschaetzt" },
+    "hinweis": "Samen gibt es nur ausnahmsweise: Der Baum ist bis auf einen Ast männlich.",
+    "quellen": [
+      { "titel": "Wikipedia: Fortingall Yew", "url": "https://de.wikipedia.org/wiki/Fortingall_Yew" }
+    ]
+  },
+  {
+    "id": "murtenlinde",
+    "name": "Murtenlinde",
+    "art": "tilia-x-europaea",
+    "lat": 46.8058398,
+    "lon": 7.1608708,
+    "ort": "Freiburg im Üechtland, Rathausplatz",
+    "land": "CH",
+    "kategorien": ["historisch"],
+    "warum": "Die alte Murtenlinde erinnerte der Legende nach an den Sieg bei Murten 1476. Die heutige Linde wurde aus einem Steckling von ihr gezogen. Sie ist also selbst ein Ableger ihres Elternbaums.",
+    "alter": { "text": "1984 gepflanzt, aus einem Steckling der historischen Linde", "gewissheit": "belegt" },
+    "quellen": [
+      { "titel": "Wikipedia: Murtenlinde", "url": "https://de.wikipedia.org/wiki/Murtenlinde" }
+    ]
+  },
+  {
+    "id": "kastanie-hundert-pferde",
+    "name": "Kastanienbaum der hundert Pferde",
+    "art": "castanea-sativa",
+    "lat": 37.750194,
+    "lon": 15.130389,
+    "ort": "Sant’Alfio, Ätna, Sizilien",
+    "land": "IT",
+    "kategorien": ["europa", "historisch"],
+    "warum": "Seit 1745 geschützt, einer der ersten Naturschutzakte überhaupt. Das Guinness-Buch führt ihn als dicksten Baum der Welt, gestützt auf eine Messung von 1780.",
+    "alter": { "text": "unbekannt, erste gesicherte Erwähnung 1636", "gewissheit": "ueberliefert" },
+    "schutz": "Parco dell’Etna",
+    "quellen": [
+      { "titel": "Wikipedia: Kastanienbaum der hundert Pferde", "url": "https://de.wikipedia.org/wiki/Kastanienbaum_der_hundert_Pferde" }
+    ]
+  },
+  {
+    "id": "oliveira-mouchao",
+    "name": "Oliveira do Mouchão",
+    "art": "olea-europaea",
+    "lat": 39.473212,
+    "lon": -8.080965,
+    "ort": "Mouriscas, Abrantes",
+    "land": "PT",
+    "kategorien": ["land"],
+    "warum": "Ältester Baum Portugals, seit 2007 als Baum von öffentlichem Interesse eingestuft.",
+    "alter": { "text": "3350 Jahre, 2016 dendrometrisch geschätzt", "gewissheit": "geschaetzt" },
+    "schutz": "Árvore de Interesse Público",
+    "quellen": [
+      { "titel": "Wikipedia (pt): Oliveira do Mouchão", "url": "https://pt.wikipedia.org/wiki/Oliveira_do_Mouch%C3%A3o" }
+    ]
+  },
+  {
+    "id": "platane-hippokrates",
+    "name": "Platane des Hippokrates",
+    "art": "platanus-orientalis",
+    "lat": 36.894775,
+    "lon": 27.290937,
+    "ort": "Kos, Platia Platanou",
+    "land": "GR",
+    "kategorien": ["historisch"],
+    "warum": "Hippokrates soll unter ihr gelehrt haben. Der heutige Baum gilt als Ableger des ursprünglichen.",
+    "alter": { "text": "Legende: über 2400 Jahre, der heutige Baum höchstens 500", "gewissheit": "ueberliefert" },
+    "quellen": [
+      { "titel": "Wikipedia: Platane des Hippokrates", "url": "https://de.wikipedia.org/wiki/Platane_des_Hippokrates" }
+    ]
+  }
+]

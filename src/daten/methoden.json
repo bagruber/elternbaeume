@@ -1,0 +1,115 @@
+{
+  "gruensteckling": {
+    "name": "Grünsteckling",
+    "kurz": "Weiche, noch grüne Triebspitzen aus diesem Frühjahr",
+    "klon": true,
+    "monate": [5, 6],
+    "tage": 1,
+    "haelt": "1–2 Tage",
+    "transport": "Gleich nach dem Schnitt in einen Gefrierbeutel mit einem feuchten, nicht nassen Tuch. Etwas Luft drin lassen, verschließen, kühl und dunkel halten, am besten in einer Kühltasche. Nie in die Sonne oder ins warme Auto.",
+    "anleitung": [
+      "Morgens schneiden, solange die Triebe voll Wasser sind: 8–12 cm lange Spitzen ohne Blüten.",
+      "Zu Hause knapp unter einem Blattknoten frisch anschneiden, die unteren Blätter entfernen, große Blätter halbieren.",
+      "In mageres Substrat stecken (Anzuchterde mit Sand oder Perlite) und angießen. Bewurzelungspulver hilft bei schwierigen Arten.",
+      "Gespannte Luft halten: Haube oder Beutel darüber, hell, aber ohne direkte Sonne, 20–25 °C.",
+      "Täglich kurz lüften. Wurzeln kommen nach 3 bis 8 Wochen; erst umtopfen, wenn sie unten aus dem Topf schauen."
+    ],
+    "alterBaum": true
+  },
+  "halbreif": {
+    "name": "Halbreifer Steckling",
+    "kurz": "Triebe dieses Jahres, unten schon verholzt, oben noch weich",
+    "klon": true,
+    "monate": [7, 8, 9],
+    "tage": 3,
+    "haelt": "3–5 Tage",
+    "transport": "Wie beim Grünsteckling: feuchtes Tuch, verschlossener Beutel, kühl und dunkel. Verträgt etwas mehr als ein Grünsteckling, aber keine Hitze.",
+    "anleitung": [
+      "10–15 cm lange Seitentriebe nehmen, gern mit einem Streifen Rinde vom älteren Ast abgerissen („mit Heel“).",
+      "Die unteren Blätter entfernen, unten 1–2 cm Rinde leicht anritzen, Bewurzelungspulver.",
+      "In einen Kasten oder ein Frühbeet stecken, schattig und gleichmäßig feucht halten.",
+      "Bewurzelung oft erst im Herbst. Frostfrei überwintern und erst im Frühjahr einzeln topfen."
+    ],
+    "alterBaum": true
+  },
+  "steckholz": {
+    "name": "Steckholz",
+    "kurz": "Verholzte, blattlose Triebe vom letzten Sommer",
+    "klon": true,
+    "monate": [11, 12, 1, 2],
+    "tage": 21,
+    "haelt": "2–3 Wochen, im Kühlschrank bis zum Frühjahr",
+    "transport": "Bündeln, die Enden in feuchtes Papier, alles in einen Beutel. Kühl halten, aber nicht gefrieren lassen.",
+    "anleitung": [
+      "Bleistiftstarke Triebe, 20–30 cm lang: unten schräg knapp unter einer Knospe, oben gerade über einer Knospe schneiden. So bleibt klar, wo oben ist.",
+      "Bis März kühl lagern (Kühlschrank, Kiste mit feuchtem Sand) oder gleich stecken.",
+      "Tief stecken, nur die oberste Knospe schaut heraus. Frühbeet oder geschützte Gartenecke.",
+      "Ein Austrieb im Frühjahr heißt noch nicht, dass Wurzeln da sind. Erst im Herbst ausgraben und umsetzen."
+    ],
+    "alterBaum": true
+  },
+  "wurzelschnittling": {
+    "name": "Wurzelschnittling",
+    "kurz": "Bleistift- bis fingerdicke Stücke der Wurzel",
+    "klon": true,
+    "monate": [12, 1, 2],
+    "tage": 7,
+    "haelt": "etwa 1 Woche",
+    "transport": "Erde abschütteln, in feuchtes Papier wickeln, in einen Beutel, kühl halten.",
+    "anleitung": [
+      "Eine Wurzel nahe der Oberfläche freilegen und 5–8 cm lange Stücke abschneiden.",
+      "Oben gerade, unten schräg schneiden, damit die Wuchsrichtung klar bleibt.",
+      "Senkrecht in sandiges Substrat stecken, dünne Stücke waagrecht legen, 1 cm Erde darüber. Kühl stellen und kaum gießen.",
+      "Die Triebe erscheinen im Frühjahr. Danach einzeln topfen."
+    ],
+    "alterBaum": false
+  },
+  "schoessling": {
+    "name": "Wurzelschössling",
+    "kurz": "Junge Triebe, die aus den Wurzeln oder am Stammfuß austreiben",
+    "klon": true,
+    "monate": [11, 12, 1, 2, 3],
+    "tage": 5,
+    "haelt": "4–7 Tage, mit feuchtem Wurzelballen",
+    "transport": "Mit möglichst viel Wurzel und etwas Erde in einen Beutel. Die Wurzel feucht halten, die Triebe dürfen eingekürzt werden.",
+    "anleitung": [
+      "Den Schössling mit einem Stück der Wurzel abstechen, aus der er wächst. Ohne eigene Wurzel ist es nur ein Steckling.",
+      "Die Triebe auf ein Drittel einkürzen, damit Wurzel und Krone im Gleichgewicht sind.",
+      "Topfen, angießen, kühl und hell überwintern.",
+      "Neuer Austrieb im Frühjahr ist ein gutes Zeichen. Im zweiten Jahr auspflanzen."
+    ],
+    "alterBaum": false
+  },
+  "samen_trocken": {
+    "name": "Samen, trocken lagerbar",
+    "kurz": "Samen, die das Austrocknen überstehen",
+    "klon": false,
+    "monate": [],
+    "tage": 365,
+    "haelt": "Monate bis Jahre",
+    "transport": "In Papiertüten, nicht in Plastik, sonst schimmeln sie. Fruchtfleisch vorher entfernen. Baum und Datum auf die Tüte schreiben.",
+    "anleitung": [
+      "Nur volle Samen nehmen. Ein paar aufschneiden: Sind sie hohl, ist die Ernte taub.",
+      "Viele Arten brauchen eine Vorbehandlung, etwa einweichen, anritzen oder Wochen bis Monate kalt und feucht im Kühlschrank (Stratifikation). Was die Art braucht, steht bei der Art.",
+      "In Aussaaterde säen, ein- bis zweimal so tief, wie der Same dick ist. Draußen im Topf oder im kalten Kasten.",
+      "Geduld: Manche Arten keimen erst im zweiten Frühjahr. Töpfe nicht zu früh wegwerfen."
+    ],
+    "alterBaum": false
+  },
+  "samen_feucht": {
+    "name": "Samen, nicht austrocknen lassen",
+    "kurz": "Große Samen wie Eicheln und Kastanien, die beim Trocknen sterben",
+    "klon": false,
+    "monate": [],
+    "tage": 14,
+    "haelt": "1–3 Wochen, kühl und feucht",
+    "transport": "In einen Beutel mit leicht feuchtem Moos, Sägemehl oder Küchenpapier, ein paar Löcher hinein. Kühl halten und nie in der Sonne liegen lassen.",
+    "anleitung": [
+      "Frisch gefallene, schwere Samen auflesen. Schwimmprobe: Was oben schwimmt, ist meist hohl.",
+      "So bald wie möglich säen, am besten in tiefe Töpfe, weil viele dieser Arten sofort eine lange Pfahlwurzel bilden.",
+      "Draußen überwintern lassen und gegen Mäuse und Eichhörnchen abdecken.",
+      "Geht das Säen nicht gleich, im Gemüsefach feucht lagern und regelmäßig nachsehen. Keimende Samen sofort topfen."
+    ],
+    "alterBaum": false
+  }
+}
