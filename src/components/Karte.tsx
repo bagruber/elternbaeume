@@ -1,8 +1,14 @@
 import { useEffect, useRef, useState } from "react";
-import maplibregl, { type GeoJSONSource, type PaddingOptions, type StyleSpecification } from "maplibre-gl";
+import * as maplibregl from "maplibre-gl";
+import type { GeoJSONSource, PaddingOptions, StyleSpecification } from "maplibre-gl";
+import maplibreWorker from "maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url";
 import { LEERER_STIL, ladeGrundkarte } from "@/lib/grundkarte";
 import { sammelSvg, zeichenSvg } from "@/lib/zeichen";
 import type { Stufe, Zustand } from "@/lib/auswahl";
+
+// MapLibre 6 laedt seinen Worker als eigenes Modul. Ohne die gebuendelte URL
+// findet der Vite-Build ihn nicht, und die Karte bleibt leer.
+maplibregl.setWorkerUrl(maplibreWorker);
 
 export interface KartenBaum {
   id: string;
