@@ -44,6 +44,13 @@ Konventionen:
 
 `pnpm test` prüft die Verweise zwischen den Dateien.
 
+## ÖPNV-Ebene
+
+Der Knopf „ÖPNV“ blendet Bahn, U-Bahn und Tram aus denselben OpenFreeMap-Kacheln ein
+(`src/lib/oepnv.ts`), kein zweiter Dienst. Ab Zoom 6 die Bahn, ab 10 die Bahnhöfe, ab 14
+U-Bahn und Stadtbahn, ab 15 die Tram. Früher geht nicht, weil die Kacheln U-Bahn und
+Tram erst ab Zoom 14 enthalten. Busse und Betriebsgleise bleiben draußen.
+
 ## Moosburg
 
 Zone 7a, gerechnet aus den DWD-Tagesminima der Station Weihenstephan-Dürnast (05404):

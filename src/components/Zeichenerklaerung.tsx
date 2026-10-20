@@ -1,6 +1,7 @@
 import { X } from "@phosphor-icons/react";
 import { grauSvg, mitte, ringSvg } from "@/lib/zeichen";
 import type { Zustand } from "@/lib/auswahl";
+import { OEPNV_FARBEN } from "@/lib/oepnv";
 
 // Ein Beispielbaum fuer die Erklaerung: im Fruehsommer Klon, im Herbst Samen.
 const BEISPIEL: Zustand[] = [
@@ -54,6 +55,16 @@ export function Zeichenerklaerung({ monat, onSchliessen }: { monat: number; onSc
           <span aria-hidden="true" dangerouslySetInnerHTML={{ __html: grauSvg(20) }} />
         </dt>
         <dd>Art noch ohne Vermehrungsdaten</dd>
+      </dl>
+
+      <h3 className="mt-3 border-t border-linie pt-3 text-[13px] font-bold">ÖPNV, wenn eingeschaltet</h3>
+      <dl className="mt-1.5 grid grid-cols-[auto_1fr] items-center gap-x-2.5 gap-y-1.5 text-[13px]">
+        <dt className="h-[3px] w-5" style={{ background: OEPNV_FARBEN.bahn }} />
+        <dd>Bahn und S-Bahn, Tunnel gestrichelt</dd>
+        <dt className="h-[3px] w-5" style={{ background: OEPNV_FARBEN.ubahn }} />
+        <dd>U-Bahn und Stadtbahn, wenn man näher kommt</dd>
+        <dt className="h-[2px] w-5" style={{ background: OEPNV_FARBEN.tram }} />
+        <dd>Tram, erst ganz nah. Busse nicht.</dd>
       </dl>
     </div>
   );

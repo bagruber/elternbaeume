@@ -3,6 +3,7 @@ import * as maplibregl from "maplibre-gl";
 import type { GeoJSONSource, PaddingOptions, StyleSpecification } from "maplibre-gl";
 import maplibreWorker from "maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url";
 import { LEERER_STIL, ladeGrundkarte } from "@/lib/grundkarte";
+import { OEPNV_IDS } from "@/lib/oepnv";
 import { sammelSvg, zeichenSvg } from "@/lib/zeichen";
 import type { Stufe, Zustand } from "@/lib/auswahl";
 
@@ -30,6 +31,8 @@ interface Props {
   /** Ausschnitt, auf den die Karte fliegen soll; n zaehlt hoch, damit auch
    *  dieselbe Region ein zweites Mal greift */
   fokus: { lat: number; lon: number; zoom: number; n: number } | null;
+  /** Bahn, U-Bahn und Tram einblenden */
+  oepnv: boolean;
   onWaehlen: (id: string | null) => void;
   onAusschnitt: (ids: string[]) => void;
   /** Baeume, die auf denselben Punkt fallen und sich nicht auseinanderzoomen lassen */
@@ -63,13 +66,18 @@ function geo(baeume: KartenBaum[], monat: number, ohne: string | null) {
   };
 }
 
+function zeigeOepnv(map: maplibregl.Map, an: boolean) {
+  // Auf dem leeren Startpapier gibt es die Ebenen noch nicht
+  for (const id of OEPNV_IDS) if (map.getLayer(id)) map.setLayoutProperty(id, "visibility", an ? "visible" : "none");
+}
+
 function grenzen(baeume: KartenBaum[]): maplibregl.LngLatBoundsLike {
   const b = new maplibregl.LngLatBounds();
   for (const x of baeume) b.extend([x.lon, x.lat]);
   return b;
 }
 
-export function Karte({ baeume, monat, gewaehlt, verdeckt, fokus, onWaehlen, onAusschnitt, onSammlung }: Props) {
+export function Karte({ baeume, monat, gewaehlt, verdeckt, fokus, oepnv, onWaehlen, onAusschnitt, onSammlung }: Props) {
   const box = useRef<HTMLDivElement>(null);
   const karte = useRef<maplibregl.Map | null>(null);
   const eintraege = useRef(new Map<string, Eintrag>());
@@ -77,8 +85,8 @@ export function Karte({ baeume, monat, gewaehlt, verdeckt, fokus, onWaehlen, onA
 
   // Die Karten-Callbacks lesen immer den neuesten Stand, ohne die Karte neu
   // aufzubauen, wenn sich Monat oder Auswahl aendern.
-  const stand = useRef({ baeume, monat, gewaehlt, onWaehlen, onAusschnitt, onSammlung });
-  stand.current = { baeume, monat, gewaehlt, onWaehlen, onAusschnitt, onSammlung };
+  const stand = useRef({ baeume, monat, gewaehlt, oepnv, onWaehlen, onAusschnitt, onSammlung });
+  stand.current = { baeume, monat, gewaehlt, oepnv, onWaehlen, onAusschnitt, onSammlung };
 
   useEffect(() => {
     let abgebrochen = false;
@@ -210,6 +218,8 @@ export function Karte({ baeume, monat, gewaehlt, verdeckt, fokus, onWaehlen, onA
     // Feuert beim Start und nach dem Wechsel auf die Grundkarte, die alle
     // Quellen ersetzt. Die Marker selbst sind HTML und bleiben stehen.
     map.on("style.load", () => {
+      // Die Grundkarte kann nach dem Umschalten kommen: Sichtbarkeit nachziehen
+      zeigeOepnv(map!, stand.current.oepnv);
       if (map!.getSource("baeume")) return;
       const { baeume, monat, gewaehlt } = stand.current;
       map!.addSource("baeume", {
@@ -280,6 +290,10 @@ export function Karte({ baeume, monat, gewaehlt, verdeckt, fokus, onWaehlen, onA
     });
     // Nur beim Wechsel der Auswahl fliegen, nicht bei jedem neuen Zustand
   }, [gewaehlt, bereit]);
+
+  useEffect(() => {
+    if (karte.current && bereit) zeigeOepnv(karte.current, oepnv);
+  }, [oepnv, bereit]);
 
   useEffect(() => {
     if (!fokus || !bereit) return;

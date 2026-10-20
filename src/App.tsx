@@ -14,6 +14,17 @@ type Ueberlagerung =
   | { art: "regionen"; region: string | null }
   | { art: "sammlung"; ids: string[] };
 
+// Die OePNV-Ebene bleibt beim naechsten Besuch so, wie sie war. Ohne
+// Browser-Speicher (privates Fenster) startet sie einfach aus.
+const OEPNV_SCHLUESSEL = "elternbaeume.oepnv";
+function oepnvGespeichert(): boolean {
+  try {
+    return localStorage.getItem(OEPNV_SCHLUESSEL) === "an";
+  } catch {
+    return false;
+  }
+}
+
 function ausAdresse(): string | null {
   const id = decodeURIComponent(location.hash.slice(1));
   return BAEUME.some((b) => b.id === id) ? id : null;
@@ -38,6 +49,7 @@ export default function App() {
   const [ausschnitt, setAusschnitt] = useState<string[]>([]);
   const [oben, setOben] = useState<Ueberlagerung | null>(null);
   const [fokus, setFokus] = useState<{ lat: number; lon: number; zoom: number; n: number } | null>(null);
+  const [oepnv, setOepnv] = useState(oepnvGespeichert);
   const gross = useGross();
 
   // Fuer jeden Baum das ganze Jahr bei den eingestellten Reisetagen. Ohne
@@ -78,6 +90,17 @@ export default function App() {
     return () => removeEventListener("hashchange", f);
   }, []);
 
+  function schalteOepnv() {
+    setOepnv((an) => {
+      try {
+        localStorage.setItem(OEPNV_SCHLUESSEL, an ? "aus" : "an");
+      } catch {
+        // ohne Speicher gilt die Einstellung nur bis zum Neuladen
+      }
+      return !an;
+    });
+  }
+
   const zeigeSammlung = useCallback((ids: string[]) => setOben({ art: "sammlung", ids }), []);
 
   const listenBaum = (id: string): ListenBaum => {
@@ -104,6 +127,7 @@ export default function App() {
           gewaehlt={gewaehlt}
           verdeckt={gross ? { right: 460, left: 0 } : {}}
           fokus={fokus}
+          oepnv={oepnv}
           onWaehlen={waehle}
           onAusschnitt={setAusschnitt}
           onSammlung={zeigeSammlung}
@@ -120,6 +144,17 @@ export default function App() {
             className="pointer-events-auto bg-flaeche/95 px-3 text-[14px] font-semibold shadow-[0_1px_4px_rgb(29_31_28/0.18)] hover:bg-papier"
           >
             Regionen
+          </button>
+          <button
+            type="button"
+            onClick={schalteOepnv}
+            aria-pressed={oepnv}
+            title="Bahn, U-Bahn und Tram einblenden"
+            className={`pointer-events-auto px-3 text-[14px] font-semibold shadow-[0_1px_4px_rgb(29_31_28/0.18)] ${
+              oepnv ? "bg-tinte text-flaeche" : "bg-flaeche/95 hover:bg-papier"
+            }`}
+          >
+            ÖPNV
           </button>
         </header>
 

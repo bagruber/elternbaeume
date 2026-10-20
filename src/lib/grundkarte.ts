@@ -1,4 +1,5 @@
 import type { LayerSpecification, StyleSpecification } from "maplibre-gl";
+import { OEPNV_HALTE, OEPNV_LINIEN } from "./oepnv";
 
 /**
  * Grundkarte: OpenFreeMap Positron, ohne API-Schluessel und damit auf GitHub
@@ -43,7 +44,14 @@ export const LEERER_STIL: StyleSpecification = {
 export async function ladeGrundkarte(): Promise<StyleSpecification> {
   const stil = (await (await fetch(STIL_URL)).json()) as StyleSpecification;
   const layers: LayerSpecification[] = [];
+  let linienDrin = false;
   for (const layer of stil.layers) {
+    // Die OePNV-Strecken gehoeren unter die erste Beschriftung, sonst
+    // ueberdecken sie Orts- und Strassennamen
+    if (layer.type === "symbol" && !linienDrin) {
+      layers.push(...OEPNV_LINIEN);
+      linienDrin = true;
+    }
     const farben = FARBEN[layer.id];
     if (farben && "paint" in layer) layer.paint = { ...layer.paint, ...farben } as never;
     if (layer.type === "symbol") {
@@ -61,5 +69,5 @@ export async function ladeGrundkarte(): Promise<StyleSpecification> {
     layers.push(layer);
     if (layer.id === "background") layers.push(RELIEF);
   }
-  return { ...stil, layers };
+  return { ...stil, layers: [...layers, ...OEPNV_HALTE] };
 }
